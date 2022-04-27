@@ -9,8 +9,11 @@ The repository contains:
 * Experimental data and logs produced by the authors and presented in the paper.
 
 ## Repository content
-
-_TODO_
+```
+├─ sips22-artifacts   # root folder
+│  │
+│  ├─ gegelati        # git submodule pointing to gegelati v1.1.0
+```
 
 ## How to reproduce experiments?
 
