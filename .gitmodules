@@ -1,3 +1,6 @@
 [submodule "gegelati"]
 	path = gegelati
 	url = https://github.com/gegelati/gegelati/
+[submodule "ale-wrapper"]
+	path = ale-wrapper
+	url = https://github.com/gegelati/ale-wrapper.git

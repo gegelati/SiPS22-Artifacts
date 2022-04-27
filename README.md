@@ -13,6 +13,9 @@ The repository contains:
 ├─ sips22-artifacts   # root folder
 │  │
 │  ├─ gegelati        # git submodule pointing to gegelati v1.1.0
+│  │
+│  ├─ ale-wrapper     # git submodule pointing to the Arcade Learning Environment
+│  │                  # wrapper for gegelati.
 ```
 
 ## How to reproduce experiments?
