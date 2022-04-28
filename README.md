@@ -1,6 +1,6 @@
 # SiPS 2022 Artifact
 
-This repository is associated to the following publication:
+This repository is associated to the following publication **(under review)**:
 
 *K. Desnos, T. Bourgoin, N. Sourbier, M. Dardaillon, O. Gesny and M. Pelcat. Ultra-fast AI Inference through C Code Generation for Tangled Program Graphs, In Workshop on Signal Processing Systems, IEEE, 2022*
 
