@@ -2,7 +2,7 @@
 
 This repository is associated to the following publication **(under review)**:
 
-*K. Desnos, T. Bourgoin, N. Sourbier, M. Dardaillon, O. Gesny and M. Pelcat. Ultra-Fast Machine Learning Decision Making with C Code Generation of Tangled Program Graphs, In Workshop on Signal Processing Systems, IEEE, 2022*
+*K. Desnos, T. Bourgoin, N. Sourbier, M. Dardaillon, O. Gesny and M. Pelcat. Ultra-Fast Machine Learning Inference through C Code Generation for Tangled Program Graphs, In Workshop on Signal Processing Systems, IEEE, 2022*
 
 The repository contains:
 * Code and scripts to reproduce the experiments presented in the paper.
