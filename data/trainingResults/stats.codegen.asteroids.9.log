@@ -1,0 +1,6 @@
+score;actions;total_time;env_time;tpg_time
+2650 ; 10720 ; 1.47445 ; 1.43326 ; 0.0187543
+Nb teams visited:  11
+Nb teams executed: 42680
+Nb progs visited:  22
+Nb progs executed: 147802

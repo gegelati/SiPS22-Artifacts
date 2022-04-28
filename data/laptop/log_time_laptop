@@ -1,0 +1,1336 @@
+# Build all targets  (04/11/22 10:07:21)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/d/LinuxFS/Git/ale-wrapper/build
+Scanning dependencies of target ALEGegelati
+[ 16%] Building CXX object CMakeFiles/ALEGegelati.dir/src/ALEWrapper.cpp.o
+[ 33%] Building CXX object CMakeFiles/ALEGegelati.dir/src/instructions.cpp.o
+[ 50%] Building CXX object CMakeFiles/ALEGegelati.dir/src/learningExample.cpp.o
+[ 66%] Building CXX object CMakeFiles/ALEGegelati.dir/src/replay.cpp.o
+[ 83%] Linking CXX executable Release/ALEGegelati
+[100%] Built target ALEGegelati
+Scanning dependencies of target ALEGegelatiCodegen
+[ 16%] Building CXX object CMakeFiles/ALEGegelatiCodegen.dir/src/ALEWrapper.cpp.o
+[ 33%] Building CXX object CMakeFiles/ALEGegelatiCodegen.dir/src/instructions.cpp.o
+[ 50%] Building CXX object CMakeFiles/ALEGegelatiCodegen.dir/src/replay.cpp.o
+[ 66%] Building CXX object CMakeFiles/ALEGegelatiCodegen.dir/src/codegen/codegen.cpp.o
+[ 83%] Linking CXX executable Release/ALEGegelatiCodegen
+[100%] Built target ALEGegelatiCodegen
+Scanning dependencies of target ALEGegelatiInferenceTPG
+[ 16%] Building CXX object CMakeFiles/ALEGegelatiInferenceTPG.dir/src/ALEWrapper.cpp.o
+[ 33%] Building CXX object CMakeFiles/ALEGegelatiInferenceTPG.dir/src/instructions.cpp.o
+[ 50%] Building CXX object CMakeFiles/ALEGegelatiInferenceTPG.dir/src/replay.cpp.o
+[ 66%] Building CXX object CMakeFiles/ALEGegelatiInferenceTPG.dir/src/codegen/inferenceTPG.cpp.o
+[ 83%] Linking CXX executable Release/ALEGegelatiInferenceTPG
+[100%] Built target ALEGegelatiInferenceTPG
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Training on alien (04/11/22 10:08:22)
+# Training on alien with seed 0.  (04/11/22 10:08:22)
+# Codegen on alien with seed 0.  (04/11/22 10:08:22)
+Loading dot file from out_best_cleaned.alien.0.t48.dot.
+Play with TPG code
+Total score: 2480 in 3461 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on alien with seed 0.  (04/11/22 10:08:23)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/ALEWrapper.cpp.o
+[ 25%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/instructions.cpp.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/replay.cpp.o
+[ 50%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 62%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 75%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 87%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on alien with seed 0.  (04/11/22 10:08:43)
+# Run 2/5 generated code on alien with seed 0.  (04/11/22 10:08:44)
+# Run 3/5 generated code on alien with seed 0.  (04/11/22 10:08:45)
+# Run 4/5 generated code on alien with seed 0.  (04/11/22 10:08:46)
+# Run 5/5 generated code on alien with seed 0.  (04/11/22 10:08:47)
+# Run 1/5 TPG on alien with seed 0.  (04/11/22 10:08:48)
+# Run 2/5 TPG on alien with seed 0.  (04/11/22 10:08:49)
+# Run 3/5 TPG on alien with seed 0.  (04/11/22 10:08:51)
+# Run 4/5 TPG on alien with seed 0.  (04/11/22 10:08:52)
+# Run 5/5 TPG on alien with seed 0.  (04/11/22 10:08:53)
+# Training on alien with seed 1.  (04/11/22 10:08:54)
+# Codegen on alien with seed 1.  (04/11/22 10:08:54)
+Loading dot file from out_best_cleaned.alien.1.t48.dot.
+Play with TPG code
+Total score: 3330 in 5917 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on alien with seed 1.  (04/11/22 10:08:56)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on alien with seed 1.  (04/11/22 10:09:03)
+# Run 2/5 generated code on alien with seed 1.  (04/11/22 10:09:04)
+# Run 3/5 generated code on alien with seed 1.  (04/11/22 10:09:06)
+# Run 4/5 generated code on alien with seed 1.  (04/11/22 10:09:07)
+# Run 5/5 generated code on alien with seed 1.  (04/11/22 10:09:09)
+# Run 1/5 TPG on alien with seed 1.  (04/11/22 10:09:10)
+# Run 2/5 TPG on alien with seed 1.  (04/11/22 10:09:12)
+# Run 3/5 TPG on alien with seed 1.  (04/11/22 10:09:14)
+# Run 4/5 TPG on alien with seed 1.  (04/11/22 10:09:15)
+# Run 5/5 TPG on alien with seed 1.  (04/11/22 10:09:17)
+# Training on alien with seed 2.  (04/11/22 10:09:19)
+# Codegen on alien with seed 2.  (04/11/22 10:09:19)
+Loading dot file from out_best_cleaned.alien.2.t48.dot.
+Play with TPG code
+Total score: 2530 in 4479 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on alien with seed 2.  (04/11/22 10:09:21)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on alien with seed 2.  (04/11/22 10:09:27)
+# Run 2/5 generated code on alien with seed 2.  (04/11/22 10:09:28)
+# Run 3/5 generated code on alien with seed 2.  (04/11/22 10:09:30)
+# Run 4/5 generated code on alien with seed 2.  (04/11/22 10:09:31)
+# Run 5/5 generated code on alien with seed 2.  (04/11/22 10:09:32)
+# Run 1/5 TPG on alien with seed 2.  (04/11/22 10:09:33)
+# Run 2/5 TPG on alien with seed 2.  (04/11/22 10:09:35)
+# Run 3/5 TPG on alien with seed 2.  (04/11/22 10:09:36)
+# Run 4/5 TPG on alien with seed 2.  (04/11/22 10:09:38)
+# Run 5/5 TPG on alien with seed 2.  (04/11/22 10:09:39)
+# Training on alien with seed 3.  (04/11/22 10:09:41)
+# Codegen on alien with seed 3.  (04/11/22 10:09:41)
+Loading dot file from out_best_cleaned.alien.3.t48.dot.
+Play with TPG code
+Total score: 2630 in 4863 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on alien with seed 3.  (04/11/22 10:09:42)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on alien with seed 3.  (04/11/22 10:09:49)
+# Run 2/5 generated code on alien with seed 3.  (04/11/22 10:09:50)
+# Run 3/5 generated code on alien with seed 3.  (04/11/22 10:09:51)
+# Run 4/5 generated code on alien with seed 3.  (04/11/22 10:09:53)
+# Run 5/5 generated code on alien with seed 3.  (04/11/22 10:09:54)
+# Run 1/5 TPG on alien with seed 3.  (04/11/22 10:09:55)
+# Run 2/5 TPG on alien with seed 3.  (04/11/22 10:09:56)
+# Run 3/5 TPG on alien with seed 3.  (04/11/22 10:09:58)
+# Run 4/5 TPG on alien with seed 3.  (04/11/22 10:09:59)
+# Run 5/5 TPG on alien with seed 3.  (04/11/22 10:10:01)
+# Training on alien with seed 4.  (04/11/22 10:10:02)
+# Codegen on alien with seed 4.  (04/11/22 10:10:02)
+Loading dot file from out_best_cleaned.alien.4.t48.dot.
+Play with TPG code
+Total score: 5190 in 4551 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on alien with seed 4.  (04/11/22 10:10:04)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on alien with seed 4.  (04/11/22 10:10:10)
+# Run 2/5 generated code on alien with seed 4.  (04/11/22 10:10:11)
+# Run 3/5 generated code on alien with seed 4.  (04/11/22 10:10:12)
+# Run 4/5 generated code on alien with seed 4.  (04/11/22 10:10:14)
+# Run 5/5 generated code on alien with seed 4.  (04/11/22 10:10:15)
+# Run 1/5 TPG on alien with seed 4.  (04/11/22 10:10:16)
+# Run 2/5 TPG on alien with seed 4.  (04/11/22 10:10:17)
+# Run 3/5 TPG on alien with seed 4.  (04/11/22 10:10:19)
+# Run 4/5 TPG on alien with seed 4.  (04/11/22 10:10:20)
+# Run 5/5 TPG on alien with seed 4.  (04/11/22 10:10:21)
+# Training on alien with seed 5.  (04/11/22 10:10:23)
+# Codegen on alien with seed 5.  (04/11/22 10:10:23)
+Loading dot file from out_best_cleaned.alien.5.t48.dot.
+Play with TPG code
+Total score: 2070 in 3431 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on alien with seed 5.  (04/11/22 10:10:24)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on alien with seed 5.  (04/11/22 10:10:31)
+# Run 2/5 generated code on alien with seed 5.  (04/11/22 10:10:32)
+# Run 3/5 generated code on alien with seed 5.  (04/11/22 10:10:33)
+# Run 4/5 generated code on alien with seed 5.  (04/11/22 10:10:34)
+# Run 5/5 generated code on alien with seed 5.  (04/11/22 10:10:35)
+# Run 1/5 TPG on alien with seed 5.  (04/11/22 10:10:36)
+# Run 2/5 TPG on alien with seed 5.  (04/11/22 10:10:37)
+# Run 3/5 TPG on alien with seed 5.  (04/11/22 10:10:38)
+# Run 4/5 TPG on alien with seed 5.  (04/11/22 10:10:39)
+# Run 5/5 TPG on alien with seed 5.  (04/11/22 10:10:40)
+# Training on alien with seed 6.  (04/11/22 10:10:42)
+# Codegen on alien with seed 6.  (04/11/22 10:10:42)
+Loading dot file from out_best_cleaned.alien.6.t48.dot.
+Play with TPG code
+Total score: 1080 in 3643 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on alien with seed 6.  (04/11/22 10:10:43)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on alien with seed 6.  (04/11/22 10:10:50)
+# Run 2/5 generated code on alien with seed 6.  (04/11/22 10:10:51)
+# Run 3/5 generated code on alien with seed 6.  (04/11/22 10:10:52)
+# Run 4/5 generated code on alien with seed 6.  (04/11/22 10:10:53)
+# Run 5/5 generated code on alien with seed 6.  (04/11/22 10:10:54)
+# Run 1/5 TPG on alien with seed 6.  (04/11/22 10:10:55)
+# Run 2/5 TPG on alien with seed 6.  (04/11/22 10:10:56)
+# Run 3/5 TPG on alien with seed 6.  (04/11/22 10:10:57)
+# Run 4/5 TPG on alien with seed 6.  (04/11/22 10:10:59)
+# Run 5/5 TPG on alien with seed 6.  (04/11/22 10:11:00)
+# Training on alien with seed 7.  (04/11/22 10:11:01)
+# Codegen on alien with seed 7.  (04/11/22 10:11:01)
+Loading dot file from out_best_cleaned.alien.7.t48.dot.
+Play with TPG code
+Total score: 3050 in 5231 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on alien with seed 7.  (04/11/22 10:11:03)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on alien with seed 7.  (04/11/22 10:11:10)
+# Run 2/5 generated code on alien with seed 7.  (04/11/22 10:11:11)
+# Run 3/5 generated code on alien with seed 7.  (04/11/22 10:11:12)
+# Run 4/5 generated code on alien with seed 7.  (04/11/22 10:11:14)
+# Run 5/5 generated code on alien with seed 7.  (04/11/22 10:11:15)
+# Run 1/5 TPG on alien with seed 7.  (04/11/22 10:11:16)
+# Run 2/5 TPG on alien with seed 7.  (04/11/22 10:11:18)
+# Run 3/5 TPG on alien with seed 7.  (04/11/22 10:11:19)
+# Run 4/5 TPG on alien with seed 7.  (04/11/22 10:11:21)
+# Run 5/5 TPG on alien with seed 7.  (04/11/22 10:11:23)
+# Training on alien with seed 8.  (04/11/22 10:11:24)
+# Codegen on alien with seed 8.  (04/11/22 10:11:24)
+Loading dot file from out_best_cleaned.alien.8.t48.dot.
+Play with TPG code
+Total score: 5720 in 6667 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on alien with seed 8.  (04/11/22 10:11:27)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on alien with seed 8.  (04/11/22 10:11:33)
+# Run 2/5 generated code on alien with seed 8.  (04/11/22 10:11:35)
+# Run 3/5 generated code on alien with seed 8.  (04/11/22 10:11:37)
+# Run 4/5 generated code on alien with seed 8.  (04/11/22 10:11:38)
+# Run 5/5 generated code on alien with seed 8.  (04/11/22 10:11:40)
+# Run 1/5 TPG on alien with seed 8.  (04/11/22 10:11:41)
+# Run 2/5 TPG on alien with seed 8.  (04/11/22 10:11:44)
+# Run 3/5 TPG on alien with seed 8.  (04/11/22 10:11:46)
+# Run 4/5 TPG on alien with seed 8.  (04/11/22 10:11:48)
+# Run 5/5 TPG on alien with seed 8.  (04/11/22 10:11:50)
+# Training on alien with seed 9.  (04/11/22 10:11:52)
+# Codegen on alien with seed 9.  (04/11/22 10:11:52)
+Loading dot file from out_best_cleaned.alien.9.t48.dot.
+Play with TPG code
+Total score: 3080 in 5233 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on alien with seed 9.  (04/11/22 10:11:54)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on alien with seed 9.  (04/11/22 10:12:01)
+# Run 2/5 generated code on alien with seed 9.  (04/11/22 10:12:02)
+# Run 3/5 generated code on alien with seed 9.  (04/11/22 10:12:03)
+# Run 4/5 generated code on alien with seed 9.  (04/11/22 10:12:05)
+# Run 5/5 generated code on alien with seed 9.  (04/11/22 10:12:06)
+# Run 1/5 TPG on alien with seed 9.  (04/11/22 10:12:07)
+# Run 2/5 TPG on alien with seed 9.  (04/11/22 10:12:09)
+# Run 3/5 TPG on alien with seed 9.  (04/11/22 10:12:11)
+# Run 4/5 TPG on alien with seed 9.  (04/11/22 10:12:12)
+# Run 5/5 TPG on alien with seed 9.  (04/11/22 10:12:14)
+# Training on asteroids (04/11/22 10:12:16)
+# Training on asteroids with seed 0.  (04/11/22 10:12:16)
+# Codegen on asteroids with seed 0.  (04/11/22 10:12:16)
+Loading dot file from out_best_cleaned.asteroids.0.t48.dot.
+Play with TPG code
+Total score: 3390 in 16832 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on asteroids with seed 0.  (04/11/22 10:12:19)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on asteroids with seed 0.  (04/11/22 10:12:26)
+# Run 2/5 generated code on asteroids with seed 0.  (04/11/22 10:12:28)
+# Run 3/5 generated code on asteroids with seed 0.  (04/11/22 10:12:31)
+# Run 4/5 generated code on asteroids with seed 0.  (04/11/22 10:12:33)
+# Run 5/5 generated code on asteroids with seed 0.  (04/11/22 10:12:35)
+# Run 1/5 TPG on asteroids with seed 0.  (04/11/22 10:12:38)
+# Run 2/5 TPG on asteroids with seed 0.  (04/11/22 10:12:41)
+# Run 3/5 TPG on asteroids with seed 0.  (04/11/22 10:12:44)
+# Run 4/5 TPG on asteroids with seed 0.  (04/11/22 10:12:46)
+# Run 5/5 TPG on asteroids with seed 0.  (04/11/22 10:12:49)
+# Training on asteroids with seed 1.  (04/11/22 10:12:52)
+# Codegen on asteroids with seed 1.  (04/11/22 10:12:52)
+Loading dot file from out_best_cleaned.asteroids.1.t48.dot.
+Play with TPG code
+Total score: 3200 in 11066 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on asteroids with seed 1.  (04/11/22 10:12:54)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on asteroids with seed 1.  (04/11/22 10:13:01)
+# Run 2/5 generated code on asteroids with seed 1.  (04/11/22 10:13:03)
+# Run 3/5 generated code on asteroids with seed 1.  (04/11/22 10:13:04)
+# Run 4/5 generated code on asteroids with seed 1.  (04/11/22 10:13:06)
+# Run 5/5 generated code on asteroids with seed 1.  (04/11/22 10:13:08)
+# Run 1/5 TPG on asteroids with seed 1.  (04/11/22 10:13:09)
+# Run 2/5 TPG on asteroids with seed 1.  (04/11/22 10:13:12)
+# Run 3/5 TPG on asteroids with seed 1.  (04/11/22 10:13:14)
+# Run 4/5 TPG on asteroids with seed 1.  (04/11/22 10:13:16)
+# Run 5/5 TPG on asteroids with seed 1.  (04/11/22 10:13:18)
+# Training on asteroids with seed 2.  (04/11/22 10:13:21)
+# Codegen on asteroids with seed 2.  (04/11/22 10:13:21)
+Loading dot file from out_best_cleaned.asteroids.2.t48.dot.
+Play with TPG code
+Total score: 3100 in 12644 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on asteroids with seed 2.  (04/11/22 10:13:24)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on asteroids with seed 2.  (04/11/22 10:13:30)
+# Run 2/5 generated code on asteroids with seed 2.  (04/11/22 10:13:32)
+# Run 3/5 generated code on asteroids with seed 2.  (04/11/22 10:13:34)
+# Run 4/5 generated code on asteroids with seed 2.  (04/11/22 10:13:36)
+# Run 5/5 generated code on asteroids with seed 2.  (04/11/22 10:13:38)
+# Run 1/5 TPG on asteroids with seed 2.  (04/11/22 10:13:40)
+# Run 2/5 TPG on asteroids with seed 2.  (04/11/22 10:13:43)
+# Run 3/5 TPG on asteroids with seed 2.  (04/11/22 10:13:45)
+# Run 4/5 TPG on asteroids with seed 2.  (04/11/22 10:13:48)
+# Run 5/5 TPG on asteroids with seed 2.  (04/11/22 10:13:50)
+# Training on asteroids with seed 3.  (04/11/22 10:13:53)
+# Codegen on asteroids with seed 3.  (04/11/22 10:13:53)
+Loading dot file from out_best_cleaned.asteroids.3.t48.dot.
+Play with TPG code
+Total score: 3100 in 15294 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on asteroids with seed 3.  (04/11/22 10:13:56)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on asteroids with seed 3.  (04/11/22 10:14:02)
+# Run 2/5 generated code on asteroids with seed 3.  (04/11/22 10:14:05)
+# Run 3/5 generated code on asteroids with seed 3.  (04/11/22 10:14:07)
+# Run 4/5 generated code on asteroids with seed 3.  (04/11/22 10:14:09)
+# Run 5/5 generated code on asteroids with seed 3.  (04/11/22 10:14:12)
+# Run 1/5 TPG on asteroids with seed 3.  (04/11/22 10:14:14)
+# Run 2/5 TPG on asteroids with seed 3.  (04/11/22 10:14:17)
+# Run 3/5 TPG on asteroids with seed 3.  (04/11/22 10:14:20)
+# Run 4/5 TPG on asteroids with seed 3.  (04/11/22 10:14:23)
+# Run 5/5 TPG on asteroids with seed 3.  (04/11/22 10:14:26)
+# Training on asteroids with seed 4.  (04/11/22 10:14:29)
+# Codegen on asteroids with seed 4.  (04/11/22 10:14:29)
+Loading dot file from out_best_cleaned.asteroids.4.t48.dot.
+Play with TPG code
+Total score: 4820 in 13820 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on asteroids with seed 4.  (04/11/22 10:14:32)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on asteroids with seed 4.  (04/11/22 10:14:39)
+# Run 2/5 generated code on asteroids with seed 4.  (04/11/22 10:14:41)
+# Run 3/5 generated code on asteroids with seed 4.  (04/11/22 10:14:43)
+# Run 4/5 generated code on asteroids with seed 4.  (04/11/22 10:14:45)
+# Run 5/5 generated code on asteroids with seed 4.  (04/11/22 10:14:47)
+# Run 1/5 TPG on asteroids with seed 4.  (04/11/22 10:14:49)
+# Run 2/5 TPG on asteroids with seed 4.  (04/11/22 10:14:52)
+# Run 3/5 TPG on asteroids with seed 4.  (04/11/22 10:14:55)
+# Run 4/5 TPG on asteroids with seed 4.  (04/11/22 10:14:58)
+# Run 5/5 TPG on asteroids with seed 4.  (04/11/22 10:15:01)
+# Training on asteroids with seed 5.  (04/11/22 10:15:04)
+# Codegen on asteroids with seed 5.  (04/11/22 10:15:04)
+Loading dot file from out_best_cleaned.asteroids.5.t48.dot.
+Play with TPG code
+Total score: 3220 in 10556 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on asteroids with seed 5.  (04/11/22 10:15:07)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on asteroids with seed 5.  (04/11/22 10:15:13)
+# Run 2/5 generated code on asteroids with seed 5.  (04/11/22 10:15:15)
+# Run 3/5 generated code on asteroids with seed 5.  (04/11/22 10:15:17)
+# Run 4/5 generated code on asteroids with seed 5.  (04/11/22 10:15:18)
+# Run 5/5 generated code on asteroids with seed 5.  (04/11/22 10:15:20)
+# Run 1/5 TPG on asteroids with seed 5.  (04/11/22 10:15:21)
+# Run 2/5 TPG on asteroids with seed 5.  (04/11/22 10:15:24)
+# Run 3/5 TPG on asteroids with seed 5.  (04/11/22 10:15:26)
+# Run 4/5 TPG on asteroids with seed 5.  (04/11/22 10:15:28)
+# Run 5/5 TPG on asteroids with seed 5.  (04/11/22 10:15:31)
+# Training on asteroids with seed 6.  (04/11/22 10:15:33)
+# Codegen on asteroids with seed 6.  (04/11/22 10:15:33)
+Loading dot file from out_best_cleaned.asteroids.6.t48.dot.
+Play with TPG code
+Total score: 3220 in 9840 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on asteroids with seed 6.  (04/11/22 10:15:35)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on asteroids with seed 6.  (04/11/22 10:15:42)
+# Run 2/5 generated code on asteroids with seed 6.  (04/11/22 10:15:43)
+# Run 3/5 generated code on asteroids with seed 6.  (04/11/22 10:15:45)
+# Run 4/5 generated code on asteroids with seed 6.  (04/11/22 10:15:46)
+# Run 5/5 generated code on asteroids with seed 6.  (04/11/22 10:15:48)
+# Run 1/5 TPG on asteroids with seed 6.  (04/11/22 10:15:49)
+# Run 2/5 TPG on asteroids with seed 6.  (04/11/22 10:15:52)
+# Run 3/5 TPG on asteroids with seed 6.  (04/11/22 10:15:54)
+# Run 4/5 TPG on asteroids with seed 6.  (04/11/22 10:15:56)
+# Run 5/5 TPG on asteroids with seed 6.  (04/11/22 10:15:58)
+# Training on asteroids with seed 7.  (04/11/22 10:16:00)
+# Codegen on asteroids with seed 7.  (04/11/22 10:16:00)
+Loading dot file from out_best_cleaned.asteroids.7.t48.dot.
+Play with TPG code
+Total score: 2900 in 6462 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on asteroids with seed 7.  (04/11/22 10:16:02)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on asteroids with seed 7.  (04/11/22 10:16:09)
+# Run 2/5 generated code on asteroids with seed 7.  (04/11/22 10:16:10)
+# Run 3/5 generated code on asteroids with seed 7.  (04/11/22 10:16:11)
+# Run 4/5 generated code on asteroids with seed 7.  (04/11/22 10:16:12)
+# Run 5/5 generated code on asteroids with seed 7.  (04/11/22 10:16:13)
+# Run 1/5 TPG on asteroids with seed 7.  (04/11/22 10:16:14)
+# Run 2/5 TPG on asteroids with seed 7.  (04/11/22 10:16:16)
+# Run 3/5 TPG on asteroids with seed 7.  (04/11/22 10:16:17)
+# Run 4/5 TPG on asteroids with seed 7.  (04/11/22 10:16:19)
+# Run 5/5 TPG on asteroids with seed 7.  (04/11/22 10:16:20)
+# Training on asteroids with seed 8.  (04/11/22 10:16:22)
+# Codegen on asteroids with seed 8.  (04/11/22 10:16:22)
+Loading dot file from out_best_cleaned.asteroids.8.t48.dot.
+Play with TPG code
+Total score: 3220 in 11252 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on asteroids with seed 8.  (04/11/22 10:16:24)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on asteroids with seed 8.  (04/11/22 10:16:31)
+# Run 2/5 generated code on asteroids with seed 8.  (04/11/22 10:16:33)
+# Run 3/5 generated code on asteroids with seed 8.  (04/11/22 10:16:35)
+# Run 4/5 generated code on asteroids with seed 8.  (04/11/22 10:16:36)
+# Run 5/5 generated code on asteroids with seed 8.  (04/11/22 10:16:38)
+# Run 1/5 TPG on asteroids with seed 8.  (04/11/22 10:16:40)
+# Run 2/5 TPG on asteroids with seed 8.  (04/11/22 10:16:42)
+# Run 3/5 TPG on asteroids with seed 8.  (04/11/22 10:16:44)
+# Run 4/5 TPG on asteroids with seed 8.  (04/11/22 10:16:47)
+# Run 5/5 TPG on asteroids with seed 8.  (04/11/22 10:16:49)
+# Training on asteroids with seed 9.  (04/11/22 10:16:51)
+# Codegen on asteroids with seed 9.  (04/11/22 10:16:51)
+Loading dot file from out_best_cleaned.asteroids.9.t48.dot.
+Play with TPG code
+Total score: 2650 in 10720 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on asteroids with seed 9.  (04/11/22 10:16:53)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on asteroids with seed 9.  (04/11/22 10:17:00)
+# Run 2/5 generated code on asteroids with seed 9.  (04/11/22 10:17:02)
+# Run 3/5 generated code on asteroids with seed 9.  (04/11/22 10:17:03)
+# Run 4/5 generated code on asteroids with seed 9.  (04/11/22 10:17:05)
+# Run 5/5 generated code on asteroids with seed 9.  (04/11/22 10:17:06)
+# Run 1/5 TPG on asteroids with seed 9.  (04/11/22 10:17:08)
+# Run 2/5 TPG on asteroids with seed 9.  (04/11/22 10:17:10)
+# Run 3/5 TPG on asteroids with seed 9.  (04/11/22 10:17:12)
+# Run 4/5 TPG on asteroids with seed 9.  (04/11/22 10:17:14)
+# Run 5/5 TPG on asteroids with seed 9.  (04/11/22 10:17:16)
+# Training on centipede (04/11/22 10:17:18)
+# Training on centipede with seed 0.  (04/11/22 10:17:18)
+# Codegen on centipede with seed 0.  (04/11/22 10:17:18)
+Loading dot file from out_best_cleaned.centipede.0.t48.dot.
+Play with TPG code
+Total score: 48934 in 18000 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on centipede with seed 0.  (04/11/22 10:17:22)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on centipede with seed 0.  (04/11/22 10:17:28)
+# Run 2/5 generated code on centipede with seed 0.  (04/11/22 10:17:31)
+# Run 3/5 generated code on centipede with seed 0.  (04/11/22 10:17:34)
+# Run 4/5 generated code on centipede with seed 0.  (04/11/22 10:17:37)
+# Run 5/5 generated code on centipede with seed 0.  (04/11/22 10:17:39)
+# Run 1/5 TPG on centipede with seed 0.  (04/11/22 10:17:42)
+# Run 2/5 TPG on centipede with seed 0.  (04/11/22 10:17:45)
+# Run 3/5 TPG on centipede with seed 0.  (04/11/22 10:17:48)
+# Run 4/5 TPG on centipede with seed 0.  (04/11/22 10:17:52)
+# Run 5/5 TPG on centipede with seed 0.  (04/11/22 10:17:55)
+# Training on centipede with seed 1.  (04/11/22 10:17:58)
+# Codegen on centipede with seed 1.  (04/11/22 10:17:58)
+Loading dot file from out_best_cleaned.centipede.1.t48.dot.
+Play with TPG code
+Total score: 58917 in 18000 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on centipede with seed 1.  (04/11/22 10:18:02)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on centipede with seed 1.  (04/11/22 10:18:09)
+# Run 2/5 generated code on centipede with seed 1.  (04/11/22 10:18:12)
+# Run 3/5 generated code on centipede with seed 1.  (04/11/22 10:18:14)
+# Run 4/5 generated code on centipede with seed 1.  (04/11/22 10:18:17)
+# Run 5/5 generated code on centipede with seed 1.  (04/11/22 10:18:20)
+# Run 1/5 TPG on centipede with seed 1.  (04/11/22 10:18:22)
+# Run 2/5 TPG on centipede with seed 1.  (04/11/22 10:18:26)
+# Run 3/5 TPG on centipede with seed 1.  (04/11/22 10:18:30)
+# Run 4/5 TPG on centipede with seed 1.  (04/11/22 10:18:34)
+# Run 5/5 TPG on centipede with seed 1.  (04/11/22 10:18:37)
+# Training on centipede with seed 2.  (04/11/22 10:18:41)
+# Codegen on centipede with seed 2.  (04/11/22 10:18:41)
+Loading dot file from out_best_cleaned.centipede.2.t48.dot.
+Play with TPG code
+Total score: 47719 in 18000 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on centipede with seed 2.  (04/11/22 10:18:45)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on centipede with seed 2.  (04/11/22 10:18:52)
+# Run 2/5 generated code on centipede with seed 2.  (04/11/22 10:18:54)
+# Run 3/5 generated code on centipede with seed 2.  (04/11/22 10:18:57)
+# Run 4/5 generated code on centipede with seed 2.  (04/11/22 10:19:00)
+# Run 5/5 generated code on centipede with seed 2.  (04/11/22 10:19:02)
+# Run 1/5 TPG on centipede with seed 2.  (04/11/22 10:19:05)
+# Run 2/5 TPG on centipede with seed 2.  (04/11/22 10:19:09)
+# Run 3/5 TPG on centipede with seed 2.  (04/11/22 10:19:13)
+# Run 4/5 TPG on centipede with seed 2.  (04/11/22 10:19:17)
+# Run 5/5 TPG on centipede with seed 2.  (04/11/22 10:19:21)
+# Training on centipede with seed 3.  (04/11/22 10:19:25)
+# Codegen on centipede with seed 3.  (04/11/22 10:19:25)
+Loading dot file from out_best_cleaned.centipede.3.t48.dot.
+Play with TPG code
+Total score: 41922 in 18000 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on centipede with seed 3.  (04/11/22 10:19:28)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on centipede with seed 3.  (04/11/22 10:19:35)
+# Run 2/5 generated code on centipede with seed 3.  (04/11/22 10:19:38)
+# Run 3/5 generated code on centipede with seed 3.  (04/11/22 10:19:40)
+# Run 4/5 generated code on centipede with seed 3.  (04/11/22 10:19:43)
+# Run 5/5 generated code on centipede with seed 3.  (04/11/22 10:19:46)
+# Run 1/5 TPG on centipede with seed 3.  (04/11/22 10:19:49)
+# Run 2/5 TPG on centipede with seed 3.  (04/11/22 10:19:52)
+# Run 3/5 TPG on centipede with seed 3.  (04/11/22 10:19:56)
+# Run 4/5 TPG on centipede with seed 3.  (04/11/22 10:19:59)
+# Run 5/5 TPG on centipede with seed 3.  (04/11/22 10:20:03)
+# Training on centipede with seed 4.  (04/11/22 10:20:06)
+# Codegen on centipede with seed 4.  (04/11/22 10:20:06)
+Loading dot file from out_best_cleaned.centipede.4.t48.dot.
+Play with TPG code
+Total score: 43828 in 18000 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on centipede with seed 4.  (04/11/22 10:20:09)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on centipede with seed 4.  (04/11/22 10:20:16)
+# Run 2/5 generated code on centipede with seed 4.  (04/11/22 10:20:19)
+# Run 3/5 generated code on centipede with seed 4.  (04/11/22 10:20:22)
+# Run 4/5 generated code on centipede with seed 4.  (04/11/22 10:20:24)
+# Run 5/5 generated code on centipede with seed 4.  (04/11/22 10:20:27)
+# Run 1/5 TPG on centipede with seed 4.  (04/11/22 10:20:30)
+# Run 2/5 TPG on centipede with seed 4.  (04/11/22 10:20:33)
+# Run 3/5 TPG on centipede with seed 4.  (04/11/22 10:20:36)
+# Run 4/5 TPG on centipede with seed 4.  (04/11/22 10:20:39)
+# Run 5/5 TPG on centipede with seed 4.  (04/11/22 10:20:42)
+# Training on centipede with seed 5.  (04/11/22 10:20:45)
+# Codegen on centipede with seed 5.  (04/11/22 10:20:45)
+Loading dot file from out_best_cleaned.centipede.5.t48.dot.
+Play with TPG code
+Total score: 45216 in 18000 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on centipede with seed 5.  (04/11/22 10:20:49)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on centipede with seed 5.  (04/11/22 10:20:55)
+# Run 2/5 generated code on centipede with seed 5.  (04/11/22 10:20:58)
+# Run 3/5 generated code on centipede with seed 5.  (04/11/22 10:21:01)
+# Run 4/5 generated code on centipede with seed 5.  (04/11/22 10:21:04)
+# Run 5/5 generated code on centipede with seed 5.  (04/11/22 10:21:06)
+# Run 1/5 TPG on centipede with seed 5.  (04/11/22 10:21:09)
+# Run 2/5 TPG on centipede with seed 5.  (04/11/22 10:21:13)
+# Run 3/5 TPG on centipede with seed 5.  (04/11/22 10:21:16)
+# Run 4/5 TPG on centipede with seed 5.  (04/11/22 10:21:19)
+# Run 5/5 TPG on centipede with seed 5.  (04/11/22 10:21:23)
+# Training on centipede with seed 6.  (04/11/22 10:21:26)
+# Codegen on centipede with seed 6.  (04/11/22 10:21:26)
+Loading dot file from out_best_cleaned.centipede.6.t48.dot.
+Play with TPG code
+Total score: 55612 in 18000 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on centipede with seed 6.  (04/11/22 10:21:30)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on centipede with seed 6.  (04/11/22 10:21:37)
+# Run 2/5 generated code on centipede with seed 6.  (04/11/22 10:21:39)
+# Run 3/5 generated code on centipede with seed 6.  (04/11/22 10:21:42)
+# Run 4/5 generated code on centipede with seed 6.  (04/11/22 10:21:45)
+# Run 5/5 generated code on centipede with seed 6.  (04/11/22 10:21:48)
+# Run 1/5 TPG on centipede with seed 6.  (04/11/22 10:21:50)
+# Run 2/5 TPG on centipede with seed 6.  (04/11/22 10:21:54)
+# Run 3/5 TPG on centipede with seed 6.  (04/11/22 10:21:57)
+# Run 4/5 TPG on centipede with seed 6.  (04/11/22 10:22:01)
+# Run 5/5 TPG on centipede with seed 6.  (04/11/22 10:22:04)
+# Training on centipede with seed 7.  (04/11/22 10:22:08)
+# Codegen on centipede with seed 7.  (04/11/22 10:22:08)
+Loading dot file from out_best_cleaned.centipede.7.t48.dot.
+Play with TPG code
+Total score: 45793 in 18000 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on centipede with seed 7.  (04/11/22 10:22:11)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on centipede with seed 7.  (04/11/22 10:22:17)
+# Run 2/5 generated code on centipede with seed 7.  (04/11/22 10:22:20)
+# Run 3/5 generated code on centipede with seed 7.  (04/11/22 10:22:23)
+# Run 4/5 generated code on centipede with seed 7.  (04/11/22 10:22:26)
+# Run 5/5 generated code on centipede with seed 7.  (04/11/22 10:22:28)
+# Run 1/5 TPG on centipede with seed 7.  (04/11/22 10:22:31)
+# Run 2/5 TPG on centipede with seed 7.  (04/11/22 10:22:34)
+# Run 3/5 TPG on centipede with seed 7.  (04/11/22 10:22:37)
+# Run 4/5 TPG on centipede with seed 7.  (04/11/22 10:22:40)
+# Run 5/5 TPG on centipede with seed 7.  (04/11/22 10:22:43)
+# Training on centipede with seed 8.  (04/11/22 10:22:47)
+# Codegen on centipede with seed 8.  (04/11/22 10:22:47)
+Loading dot file from out_best_cleaned.centipede.8.t48.dot.
+Play with TPG code
+Total score: 44499 in 18000 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on centipede with seed 8.  (04/11/22 10:22:50)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on centipede with seed 8.  (04/11/22 10:22:57)
+# Run 2/5 generated code on centipede with seed 8.  (04/11/22 10:23:00)
+# Run 3/5 generated code on centipede with seed 8.  (04/11/22 10:23:02)
+# Run 4/5 generated code on centipede with seed 8.  (04/11/22 10:23:05)
+# Run 5/5 generated code on centipede with seed 8.  (04/11/22 10:23:08)
+# Run 1/5 TPG on centipede with seed 8.  (04/11/22 10:23:11)
+# Run 2/5 TPG on centipede with seed 8.  (04/11/22 10:23:14)
+# Run 3/5 TPG on centipede with seed 8.  (04/11/22 10:23:18)
+# Run 4/5 TPG on centipede with seed 8.  (04/11/22 10:23:21)
+# Run 5/5 TPG on centipede with seed 8.  (04/11/22 10:23:25)
+# Training on centipede with seed 9.  (04/11/22 10:23:29)
+# Codegen on centipede with seed 9.  (04/11/22 10:23:29)
+Loading dot file from out_best_cleaned.centipede.9.t48.dot.
+Play with TPG code
+Total score: 39732 in 17920 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on centipede with seed 9.  (04/11/22 10:23:33)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on centipede with seed 9.  (04/11/22 10:23:40)
+# Run 2/5 generated code on centipede with seed 9.  (04/11/22 10:23:43)
+# Run 3/5 generated code on centipede with seed 9.  (04/11/22 10:23:45)
+# Run 4/5 generated code on centipede with seed 9.  (04/11/22 10:23:48)
+# Run 5/5 generated code on centipede with seed 9.  (04/11/22 10:23:51)
+# Run 1/5 TPG on centipede with seed 9.  (04/11/22 10:23:54)
+# Run 2/5 TPG on centipede with seed 9.  (04/11/22 10:23:58)
+# Run 3/5 TPG on centipede with seed 9.  (04/11/22 10:24:02)
+# Run 4/5 TPG on centipede with seed 9.  (04/11/22 10:24:06)
+# Run 5/5 TPG on centipede with seed 9.  (04/11/22 10:24:10)
+# Training on fishing_derby (04/11/22 10:24:14)
+# Training on fishing_derby with seed 0.  (04/11/22 10:24:14)
+# Codegen on fishing_derby with seed 0.  (04/11/22 10:24:14)
+Loading dot file from out_best_cleaned.fishing_derby.0.t48.dot.
+Play with TPG code
+Total score: -13 in 9207 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on fishing_derby with seed 0.  (04/11/22 10:24:17)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on fishing_derby with seed 0.  (04/11/22 10:24:24)
+# Run 2/5 generated code on fishing_derby with seed 0.  (04/11/22 10:24:26)
+# Run 3/5 generated code on fishing_derby with seed 0.  (04/11/22 10:24:29)
+# Run 4/5 generated code on fishing_derby with seed 0.  (04/11/22 10:24:31)
+# Run 5/5 generated code on fishing_derby with seed 0.  (04/11/22 10:24:33)
+# Run 1/5 TPG on fishing_derby with seed 0.  (04/11/22 10:24:36)
+# Run 2/5 TPG on fishing_derby with seed 0.  (04/11/22 10:24:39)
+# Run 3/5 TPG on fishing_derby with seed 0.  (04/11/22 10:24:42)
+# Run 4/5 TPG on fishing_derby with seed 0.  (04/11/22 10:24:45)
+# Run 5/5 TPG on fishing_derby with seed 0.  (04/11/22 10:24:47)
+# Training on fishing_derby with seed 1.  (04/11/22 10:24:50)
+# Codegen on fishing_derby with seed 1.  (04/11/22 10:24:50)
+Loading dot file from out_best_cleaned.fishing_derby.1.t48.dot.
+Play with TPG code
+Total score: -29 in 8267 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on fishing_derby with seed 1.  (04/11/22 10:24:53)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on fishing_derby with seed 1.  (04/11/22 10:24:59)
+# Run 2/5 generated code on fishing_derby with seed 1.  (04/11/22 10:25:02)
+# Run 3/5 generated code on fishing_derby with seed 1.  (04/11/22 10:25:04)
+# Run 4/5 generated code on fishing_derby with seed 1.  (04/11/22 10:25:06)
+# Run 5/5 generated code on fishing_derby with seed 1.  (04/11/22 10:25:08)
+# Run 1/5 TPG on fishing_derby with seed 1.  (04/11/22 10:25:10)
+# Run 2/5 TPG on fishing_derby with seed 1.  (04/11/22 10:25:12)
+# Run 3/5 TPG on fishing_derby with seed 1.  (04/11/22 10:25:15)
+# Run 4/5 TPG on fishing_derby with seed 1.  (04/11/22 10:25:17)
+# Run 5/5 TPG on fishing_derby with seed 1.  (04/11/22 10:25:19)
+# Training on fishing_derby with seed 2.  (04/11/22 10:25:22)
+# Codegen on fishing_derby with seed 2.  (04/11/22 10:25:22)
+Loading dot file from out_best_cleaned.fishing_derby.2.t48.dot.
+Play with TPG code
+Total score: -35 in 7551 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on fishing_derby with seed 2.  (04/11/22 10:25:24)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on fishing_derby with seed 2.  (04/11/22 10:25:31)
+# Run 2/5 generated code on fishing_derby with seed 2.  (04/11/22 10:25:33)
+# Run 3/5 generated code on fishing_derby with seed 2.  (04/11/22 10:25:35)
+# Run 4/5 generated code on fishing_derby with seed 2.  (04/11/22 10:25:37)
+# Run 5/5 generated code on fishing_derby with seed 2.  (04/11/22 10:25:39)
+# Run 1/5 TPG on fishing_derby with seed 2.  (04/11/22 10:25:41)
+# Run 2/5 TPG on fishing_derby with seed 2.  (04/11/22 10:25:43)
+# Run 3/5 TPG on fishing_derby with seed 2.  (04/11/22 10:25:45)
+# Run 4/5 TPG on fishing_derby with seed 2.  (04/11/22 10:25:47)
+# Run 5/5 TPG on fishing_derby with seed 2.  (04/11/22 10:25:50)
+# Training on fishing_derby with seed 3.  (04/11/22 10:25:52)
+# Codegen on fishing_derby with seed 3.  (04/11/22 10:25:52)
+Loading dot file from out_best_cleaned.fishing_derby.3.t48.dot.
+Play with TPG code
+Total score: -23 in 7955 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on fishing_derby with seed 3.  (04/11/22 10:25:54)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on fishing_derby with seed 3.  (04/11/22 10:26:01)
+# Run 2/5 generated code on fishing_derby with seed 3.  (04/11/22 10:26:03)
+# Run 3/5 generated code on fishing_derby with seed 3.  (04/11/22 10:26:05)
+# Run 4/5 generated code on fishing_derby with seed 3.  (04/11/22 10:26:07)
+# Run 5/5 generated code on fishing_derby with seed 3.  (04/11/22 10:26:09)
+# Run 1/5 TPG on fishing_derby with seed 3.  (04/11/22 10:26:11)
+# Run 2/5 TPG on fishing_derby with seed 3.  (04/11/22 10:26:14)
+# Run 3/5 TPG on fishing_derby with seed 3.  (04/11/22 10:26:16)
+# Run 4/5 TPG on fishing_derby with seed 3.  (04/11/22 10:26:18)
+# Run 5/5 TPG on fishing_derby with seed 3.  (04/11/22 10:26:20)
+# Training on fishing_derby with seed 4.  (04/11/22 10:26:23)
+# Codegen on fishing_derby with seed 4.  (04/11/22 10:26:23)
+Loading dot file from out_best_cleaned.fishing_derby.4.t48.dot.
+Play with TPG code
+Total score: -11 in 8015 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on fishing_derby with seed 4.  (04/11/22 10:26:25)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on fishing_derby with seed 4.  (04/11/22 10:26:32)
+# Run 2/5 generated code on fishing_derby with seed 4.  (04/11/22 10:26:34)
+# Run 3/5 generated code on fishing_derby with seed 4.  (04/11/22 10:26:36)
+# Run 4/5 generated code on fishing_derby with seed 4.  (04/11/22 10:26:38)
+# Run 5/5 generated code on fishing_derby with seed 4.  (04/11/22 10:26:40)
+# Run 1/5 TPG on fishing_derby with seed 4.  (04/11/22 10:26:42)
+# Run 2/5 TPG on fishing_derby with seed 4.  (04/11/22 10:26:44)
+# Run 3/5 TPG on fishing_derby with seed 4.  (04/11/22 10:26:47)
+# Run 4/5 TPG on fishing_derby with seed 4.  (04/11/22 10:26:49)
+# Run 5/5 TPG on fishing_derby with seed 4.  (04/11/22 10:26:51)
+# Training on fishing_derby with seed 5.  (04/11/22 10:26:54)
+# Codegen on fishing_derby with seed 5.  (04/11/22 10:26:54)
+Loading dot file from out_best_cleaned.fishing_derby.5.t48.dot.
+Play with TPG code
+Total score: -33 in 9119 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on fishing_derby with seed 5.  (04/11/22 10:26:57)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on fishing_derby with seed 5.  (04/11/22 10:27:03)
+# Run 2/5 generated code on fishing_derby with seed 5.  (04/11/22 10:27:06)
+# Run 3/5 generated code on fishing_derby with seed 5.  (04/11/22 10:27:08)
+# Run 4/5 generated code on fishing_derby with seed 5.  (04/11/22 10:27:10)
+# Run 5/5 generated code on fishing_derby with seed 5.  (04/11/22 10:27:13)
+# Run 1/5 TPG on fishing_derby with seed 5.  (04/11/22 10:27:15)
+# Run 2/5 TPG on fishing_derby with seed 5.  (04/11/22 10:27:18)
+# Run 3/5 TPG on fishing_derby with seed 5.  (04/11/22 10:27:21)
+# Run 4/5 TPG on fishing_derby with seed 5.  (04/11/22 10:27:24)
+# Run 5/5 TPG on fishing_derby with seed 5.  (04/11/22 10:27:27)
+# Training on fishing_derby with seed 6.  (04/11/22 10:27:30)
+# Codegen on fishing_derby with seed 6.  (04/11/22 10:27:30)
+Loading dot file from out_best_cleaned.fishing_derby.6.t48.dot.
+Play with TPG code
+Total score: -7 in 9851 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on fishing_derby with seed 6.  (04/11/22 10:27:32)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on fishing_derby with seed 6.  (04/11/22 10:27:39)
+# Run 2/5 generated code on fishing_derby with seed 6.  (04/11/22 10:27:42)
+# Run 3/5 generated code on fishing_derby with seed 6.  (04/11/22 10:27:44)
+# Run 4/5 generated code on fishing_derby with seed 6.  (04/11/22 10:27:47)
+# Run 5/5 generated code on fishing_derby with seed 6.  (04/11/22 10:27:49)
+# Run 1/5 TPG on fishing_derby with seed 6.  (04/11/22 10:27:52)
+# Run 2/5 TPG on fishing_derby with seed 6.  (04/11/22 10:27:54)
+# Run 3/5 TPG on fishing_derby with seed 6.  (04/11/22 10:27:57)
+# Run 4/5 TPG on fishing_derby with seed 6.  (04/11/22 10:28:00)
+# Run 5/5 TPG on fishing_derby with seed 6.  (04/11/22 10:28:02)
+# Training on fishing_derby with seed 7.  (04/11/22 10:28:05)
+# Codegen on fishing_derby with seed 7.  (04/11/22 10:28:05)
+Loading dot file from out_best_cleaned.fishing_derby.7.t48.dot.
+Play with TPG code
+Total score: -39 in 8911 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on fishing_derby with seed 7.  (04/11/22 10:28:08)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on fishing_derby with seed 7.  (04/11/22 10:28:14)
+# Run 2/5 generated code on fishing_derby with seed 7.  (04/11/22 10:28:17)
+# Run 3/5 generated code on fishing_derby with seed 7.  (04/11/22 10:28:19)
+# Run 4/5 generated code on fishing_derby with seed 7.  (04/11/22 10:28:21)
+# Run 5/5 generated code on fishing_derby with seed 7.  (04/11/22 10:28:24)
+# Run 1/5 TPG on fishing_derby with seed 7.  (04/11/22 10:28:26)
+# Run 2/5 TPG on fishing_derby with seed 7.  (04/11/22 10:28:29)
+# Run 3/5 TPG on fishing_derby with seed 7.  (04/11/22 10:28:31)
+# Run 4/5 TPG on fishing_derby with seed 7.  (04/11/22 10:28:34)
+# Run 5/5 TPG on fishing_derby with seed 7.  (04/11/22 10:28:37)
+# Training on fishing_derby with seed 8.  (04/11/22 10:28:39)
+# Codegen on fishing_derby with seed 8.  (04/11/22 10:28:39)
+Loading dot file from out_best_cleaned.fishing_derby.8.t48.dot.
+Play with TPG code
+Total score: -33 in 9151 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on fishing_derby with seed 8.  (04/11/22 10:28:42)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on fishing_derby with seed 8.  (04/11/22 10:28:49)
+# Run 2/5 generated code on fishing_derby with seed 8.  (04/11/22 10:28:52)
+# Run 3/5 generated code on fishing_derby with seed 8.  (04/11/22 10:28:54)
+# Run 4/5 generated code on fishing_derby with seed 8.  (04/11/22 10:28:56)
+# Run 5/5 generated code on fishing_derby with seed 8.  (04/11/22 10:28:59)
+# Run 1/5 TPG on fishing_derby with seed 8.  (04/11/22 10:29:01)
+# Run 2/5 TPG on fishing_derby with seed 8.  (04/11/22 10:29:04)
+# Run 3/5 TPG on fishing_derby with seed 8.  (04/11/22 10:29:07)
+# Run 4/5 TPG on fishing_derby with seed 8.  (04/11/22 10:29:09)
+# Run 5/5 TPG on fishing_derby with seed 8.  (04/11/22 10:29:12)
+# Training on fishing_derby with seed 9.  (04/11/22 10:29:15)
+# Codegen on fishing_derby with seed 9.  (04/11/22 10:29:15)
+Loading dot file from out_best_cleaned.fishing_derby.9.t48.dot.
+Play with TPG code
+Total score: -39 in 6743 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on fishing_derby with seed 9.  (04/11/22 10:29:17)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on fishing_derby with seed 9.  (04/11/22 10:29:23)
+# Run 2/5 generated code on fishing_derby with seed 9.  (04/11/22 10:29:25)
+# Run 3/5 generated code on fishing_derby with seed 9.  (04/11/22 10:29:27)
+# Run 4/5 generated code on fishing_derby with seed 9.  (04/11/22 10:29:29)
+# Run 5/5 generated code on fishing_derby with seed 9.  (04/11/22 10:29:31)
+# Run 1/5 TPG on fishing_derby with seed 9.  (04/11/22 10:29:33)
+# Run 2/5 TPG on fishing_derby with seed 9.  (04/11/22 10:29:35)
+# Run 3/5 TPG on fishing_derby with seed 9.  (04/11/22 10:29:37)
+# Run 4/5 TPG on fishing_derby with seed 9.  (04/11/22 10:29:39)
+# Run 5/5 TPG on fishing_derby with seed 9.  (04/11/22 10:29:41)
+# Training on frostbite (04/11/22 10:29:42)
+# Training on frostbite with seed 0.  (04/11/22 10:29:42)
+# Codegen on frostbite with seed 0.  (04/11/22 10:29:42)
+Loading dot file from out_best_cleaned.frostbite.0.t48.dot.
+Play with TPG code
+Total score: 4980 in 5881 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on frostbite with seed 0.  (04/11/22 10:29:44)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on frostbite with seed 0.  (04/11/22 10:29:51)
+# Run 2/5 generated code on frostbite with seed 0.  (04/11/22 10:29:52)
+# Run 3/5 generated code on frostbite with seed 0.  (04/11/22 10:29:53)
+# Run 4/5 generated code on frostbite with seed 0.  (04/11/22 10:29:55)
+# Run 5/5 generated code on frostbite with seed 0.  (04/11/22 10:29:56)
+# Run 1/5 TPG on frostbite with seed 0.  (04/11/22 10:29:57)
+# Run 2/5 TPG on frostbite with seed 0.  (04/11/22 10:29:59)
+# Run 3/5 TPG on frostbite with seed 0.  (04/11/22 10:30:01)
+# Run 4/5 TPG on frostbite with seed 0.  (04/11/22 10:30:02)
+# Run 5/5 TPG on frostbite with seed 0.  (04/11/22 10:30:04)
+# Training on frostbite with seed 1.  (04/11/22 10:30:05)
+# Codegen on frostbite with seed 1.  (04/11/22 10:30:05)
+Loading dot file from out_best_cleaned.frostbite.1.t48.dot.
+Play with TPG code
+Total score: 6390 in 6843 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on frostbite with seed 1.  (04/11/22 10:30:07)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on frostbite with seed 1.  (04/11/22 10:30:14)
+# Run 2/5 generated code on frostbite with seed 1.  (04/11/22 10:30:15)
+# Run 3/5 generated code on frostbite with seed 1.  (04/11/22 10:30:17)
+# Run 4/5 generated code on frostbite with seed 1.  (04/11/22 10:30:18)
+# Run 5/5 generated code on frostbite with seed 1.  (04/11/22 10:30:20)
+# Run 1/5 TPG on frostbite with seed 1.  (04/11/22 10:30:21)
+# Run 2/5 TPG on frostbite with seed 1.  (04/11/22 10:30:23)
+# Run 3/5 TPG on frostbite with seed 1.  (04/11/22 10:30:24)
+# Run 4/5 TPG on frostbite with seed 1.  (04/11/22 10:30:26)
+# Run 5/5 TPG on frostbite with seed 1.  (04/11/22 10:30:28)
+# Training on frostbite with seed 2.  (04/11/22 10:30:30)
+# Codegen on frostbite with seed 2.  (04/11/22 10:30:30)
+Loading dot file from out_best_cleaned.frostbite.2.t48.dot.
+Play with TPG code
+Total score: 3990 in 6351 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on frostbite with seed 2.  (04/11/22 10:30:31)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on frostbite with seed 2.  (04/11/22 10:30:38)
+# Run 2/5 generated code on frostbite with seed 2.  (04/11/22 10:30:39)
+# Run 3/5 generated code on frostbite with seed 2.  (04/11/22 10:30:40)
+# Run 4/5 generated code on frostbite with seed 2.  (04/11/22 10:30:42)
+# Run 5/5 generated code on frostbite with seed 2.  (04/11/22 10:30:43)
+# Run 1/5 TPG on frostbite with seed 2.  (04/11/22 10:30:44)
+# Run 2/5 TPG on frostbite with seed 2.  (04/11/22 10:30:46)
+# Run 3/5 TPG on frostbite with seed 2.  (04/11/22 10:30:47)
+# Run 4/5 TPG on frostbite with seed 2.  (04/11/22 10:30:49)
+# Run 5/5 TPG on frostbite with seed 2.  (04/11/22 10:30:50)
+# Training on frostbite with seed 3.  (04/11/22 10:30:51)
+# Codegen on frostbite with seed 3.  (04/11/22 10:30:51)
+Loading dot file from out_best_cleaned.frostbite.3.t48.dot.
+Play with TPG code
+Total score: 4360 in 18000 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on frostbite with seed 3.  (04/11/22 10:30:56)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on frostbite with seed 3.  (04/11/22 10:31:02)
+# Run 2/5 generated code on frostbite with seed 3.  (04/11/22 10:31:06)
+# Run 3/5 generated code on frostbite with seed 3.  (04/11/22 10:31:09)
+# Run 4/5 generated code on frostbite with seed 3.  (04/11/22 10:31:13)
+# Run 5/5 generated code on frostbite with seed 3.  (04/11/22 10:31:16)
+# Run 1/5 TPG on frostbite with seed 3.  (04/11/22 10:31:19)
+# Run 2/5 TPG on frostbite with seed 3.  (04/11/22 10:31:24)
+# Run 3/5 TPG on frostbite with seed 3.  (04/11/22 10:31:28)
+# Run 4/5 TPG on frostbite with seed 3.  (04/11/22 10:31:32)
+# Run 5/5 TPG on frostbite with seed 3.  (04/11/22 10:31:36)
+# Training on frostbite with seed 4.  (04/11/22 10:31:40)
+# Codegen on frostbite with seed 4.  (04/11/22 10:31:40)
+Loading dot file from out_best_cleaned.frostbite.4.t48.dot.
+Play with TPG code
+Total score: 8830 in 8053 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on frostbite with seed 4.  (04/11/22 10:31:42)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on frostbite with seed 4.  (04/11/22 10:31:49)
+# Run 2/5 generated code on frostbite with seed 4.  (04/11/22 10:31:51)
+# Run 3/5 generated code on frostbite with seed 4.  (04/11/22 10:31:52)
+# Run 4/5 generated code on frostbite with seed 4.  (04/11/22 10:31:54)
+# Run 5/5 generated code on frostbite with seed 4.  (04/11/22 10:31:56)
+# Run 1/5 TPG on frostbite with seed 4.  (04/11/22 10:31:57)
+# Run 2/5 TPG on frostbite with seed 4.  (04/11/22 10:31:59)
+# Run 3/5 TPG on frostbite with seed 4.  (04/11/22 10:32:02)
+# Run 4/5 TPG on frostbite with seed 4.  (04/11/22 10:32:04)
+# Run 5/5 TPG on frostbite with seed 4.  (04/11/22 10:32:06)
+# Training on frostbite with seed 5.  (04/11/22 10:32:08)
+# Codegen on frostbite with seed 5.  (04/11/22 10:32:08)
+Loading dot file from out_best_cleaned.frostbite.5.t48.dot.
+Play with TPG code
+Total score: 5450 in 8829 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on frostbite with seed 5.  (04/11/22 10:32:10)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on frostbite with seed 5.  (04/11/22 10:32:17)
+# Run 2/5 generated code on frostbite with seed 5.  (04/11/22 10:32:19)
+# Run 3/5 generated code on frostbite with seed 5.  (04/11/22 10:32:20)
+# Run 4/5 generated code on frostbite with seed 5.  (04/11/22 10:32:22)
+# Run 5/5 generated code on frostbite with seed 5.  (04/11/22 10:32:24)
+# Run 1/5 TPG on frostbite with seed 5.  (04/11/22 10:32:26)
+# Run 2/5 TPG on frostbite with seed 5.  (04/11/22 10:32:28)
+# Run 3/5 TPG on frostbite with seed 5.  (04/11/22 10:32:30)
+# Run 4/5 TPG on frostbite with seed 5.  (04/11/22 10:32:32)
+# Run 5/5 TPG on frostbite with seed 5.  (04/11/22 10:32:34)
+# Training on frostbite with seed 6.  (04/11/22 10:32:36)
+# Codegen on frostbite with seed 6.  (04/11/22 10:32:36)
+Loading dot file from out_best_cleaned.frostbite.6.t48.dot.
+Play with TPG code
+Total score: 3940 in 6879 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on frostbite with seed 6.  (04/11/22 10:32:37)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on frostbite with seed 6.  (04/11/22 10:32:44)
+# Run 2/5 generated code on frostbite with seed 6.  (04/11/22 10:32:46)
+# Run 3/5 generated code on frostbite with seed 6.  (04/11/22 10:32:47)
+# Run 4/5 generated code on frostbite with seed 6.  (04/11/22 10:32:48)
+# Run 5/5 generated code on frostbite with seed 6.  (04/11/22 10:32:50)
+# Run 1/5 TPG on frostbite with seed 6.  (04/11/22 10:32:51)
+# Run 2/5 TPG on frostbite with seed 6.  (04/11/22 10:32:53)
+# Run 3/5 TPG on frostbite with seed 6.  (04/11/22 10:32:55)
+# Run 4/5 TPG on frostbite with seed 6.  (04/11/22 10:32:56)
+# Run 5/5 TPG on frostbite with seed 6.  (04/11/22 10:32:58)
+# Training on frostbite with seed 7.  (04/11/22 10:33:00)
+# Codegen on frostbite with seed 7.  (04/11/22 10:33:00)
+Loading dot file from out_best_cleaned.frostbite.7.t48.dot.
+Play with TPG code
+Total score: 5610 in 6775 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on frostbite with seed 7.  (04/11/22 10:33:02)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on frostbite with seed 7.  (04/11/22 10:33:08)
+# Run 2/5 generated code on frostbite with seed 7.  (04/11/22 10:33:10)
+# Run 3/5 generated code on frostbite with seed 7.  (04/11/22 10:33:12)
+# Run 4/5 generated code on frostbite with seed 7.  (04/11/22 10:33:13)
+# Run 5/5 generated code on frostbite with seed 7.  (04/11/22 10:33:15)
+# Run 1/5 TPG on frostbite with seed 7.  (04/11/22 10:33:16)
+# Run 2/5 TPG on frostbite with seed 7.  (04/11/22 10:33:18)
+# Run 3/5 TPG on frostbite with seed 7.  (04/11/22 10:33:19)
+# Run 4/5 TPG on frostbite with seed 7.  (04/11/22 10:33:21)
+# Run 5/5 TPG on frostbite with seed 7.  (04/11/22 10:33:23)
+# Training on frostbite with seed 8.  (04/11/22 10:33:25)
+# Codegen on frostbite with seed 8.  (04/11/22 10:33:25)
+Loading dot file from out_best_cleaned.frostbite.8.t48.dot.
+Play with TPG code
+Total score: 5800 in 9116 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on frostbite with seed 8.  (04/11/22 10:33:27)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on frostbite with seed 8.  (04/11/22 10:33:34)
+# Run 2/5 generated code on frostbite with seed 8.  (04/11/22 10:33:36)
+# Run 3/5 generated code on frostbite with seed 8.  (04/11/22 10:33:38)
+# Run 4/5 generated code on frostbite with seed 8.  (04/11/22 10:33:39)
+# Run 5/5 generated code on frostbite with seed 8.  (04/11/22 10:33:41)
+# Run 1/5 TPG on frostbite with seed 8.  (04/11/22 10:33:43)
+# Run 2/5 TPG on frostbite with seed 8.  (04/11/22 10:33:45)
+# Run 3/5 TPG on frostbite with seed 8.  (04/11/22 10:33:47)
+# Run 4/5 TPG on frostbite with seed 8.  (04/11/22 10:33:50)
+# Run 5/5 TPG on frostbite with seed 8.  (04/11/22 10:33:52)
+# Training on frostbite with seed 9.  (04/11/22 10:33:54)
+# Codegen on frostbite with seed 9.  (04/11/22 10:33:54)
+Loading dot file from out_best_cleaned.frostbite.9.t48.dot.
+Play with TPG code
+Total score: 3790 in 8619 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on frostbite with seed 9.  (04/11/22 10:33:57)
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts /mnt/d/LinuxFS/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+/mnt/d/LinuxFS/Git/ale-wrapper/scripts
+# Run 1/5 generated code on frostbite with seed 9.  (04/11/22 10:34:03)
+# Run 2/5 generated code on frostbite with seed 9.  (04/11/22 10:34:05)
+# Run 3/5 generated code on frostbite with seed 9.  (04/11/22 10:34:07)
+# Run 4/5 generated code on frostbite with seed 9.  (04/11/22 10:34:08)
+# Run 5/5 generated code on frostbite with seed 9.  (04/11/22 10:34:10)
+# Run 1/5 TPG on frostbite with seed 9.  (04/11/22 10:34:12)
+# Run 2/5 TPG on frostbite with seed 9.  (04/11/22 10:34:14)
+# Run 3/5 TPG on frostbite with seed 9.  (04/11/22 10:34:16)
+# Run 4/5 TPG on frostbite with seed 9.  (04/11/22 10:34:19)
+# Run 5/5 TPG on frostbite with seed 9.  (04/11/22 10:34:21)
+# Done  (04/11/22 10:34:23)

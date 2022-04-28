@@ -1,0 +1,736 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00    28548     0.00     0.00  execute
+  0.00      0.00     0.00    28548     0.00     0.00  executeTeam
+  0.00      0.00     0.00    28548     0.00     0.00  push
+  0.00      0.00     0.00    28544     0.00     0.00  pop
+  0.00      0.00     0.00     5231     0.00     0.00  P32
+  0.00      0.00     0.00     5231     0.00     0.00  P33
+  0.00      0.00     0.00     5231     0.00     0.00  P34
+  0.00      0.00     0.00     5231     0.00     0.00  T14
+  0.00      0.00     0.00     5231     0.00     0.00  T15
+  0.00      0.00     0.00     5231     0.00     0.00  reset
+  0.00      0.00     0.00     5177     0.00     0.00  P23
+  0.00      0.00     0.00     5177     0.00     0.00  P24
+  0.00      0.00     0.00     5177     0.00     0.00  P25
+  0.00      0.00     0.00     5177     0.00     0.00  P26
+  0.00      0.00     0.00     5177     0.00     0.00  P27
+  0.00      0.00     0.00     5177     0.00     0.00  P28
+  0.00      0.00     0.00     5177     0.00     0.00  P29
+  0.00      0.00     0.00     5177     0.00     0.00  P30
+  0.00      0.00     0.00     5177     0.00     0.00  P31
+  0.00      0.00     0.00     5177     0.00     0.00  T12
+  0.00      0.00     0.00     5177     0.00     0.00  T13
+  0.00      0.00     0.00     2402     0.00     0.00  P14
+  0.00      0.00     0.00     2402     0.00     0.00  P16
+  0.00      0.00     0.00     2337     0.00     0.00  P19
+  0.00      0.00     0.00     2337     0.00     0.00  P20
+  0.00      0.00     0.00     2337     0.00     0.00  T9
+  0.00      0.00     0.00     2097     0.00     0.00  P4
+  0.00      0.00     0.00     1610     0.00     0.00  A9
+  0.00      0.00     0.00     1485     0.00     0.00  A7
+  0.00      0.00     0.00     1133     0.00     0.00  P3
+  0.00      0.00     0.00     1133     0.00     0.00  T2
+  0.00      0.00     0.00     1093     0.00     0.00  P0
+  0.00      0.00     0.00     1093     0.00     0.00  P1
+  0.00      0.00     0.00     1093     0.00     0.00  T0
+  0.00      0.00     0.00     1051     0.00     0.00  A17
+  0.00      0.00     0.00      964     0.00     0.00  P10
+  0.00      0.00     0.00      964     0.00     0.00  P11
+  0.00      0.00     0.00      964     0.00     0.00  P12
+  0.00      0.00     0.00      964     0.00     0.00  P13
+  0.00      0.00     0.00      964     0.00     0.00  P9
+  0.00      0.00     0.00      964     0.00     0.00  T4
+  0.00      0.00     0.00      964     0.00     0.00  T5
+  0.00      0.00     0.00      707     0.00     0.00  A6
+  0.00      0.00     0.00      707     0.00     0.00  P2
+  0.00      0.00     0.00      707     0.00     0.00  T1
+  0.00      0.00     0.00      358     0.00     0.00  P5
+  0.00      0.00     0.00      358     0.00     0.00  P6
+  0.00      0.00     0.00      358     0.00     0.00  P7
+  0.00      0.00     0.00      358     0.00     0.00  P8
+  0.00      0.00     0.00      358     0.00     0.00  T3
+  0.00      0.00     0.00      246     0.00     0.00  __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > std::__find_if<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__ops::_Iter_equals_val<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const> >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__ops::_Iter_equals_val<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const>, std::random_access_iterator_tag)
+  0.00      0.00     0.00      209     0.00     0.00  A8
+  0.00      0.00     0.00       89     0.00     0.00  A12
+  0.00      0.00     0.00       65     0.00     0.00  P15
+  0.00      0.00     0.00       65     0.00     0.00  T6
+  0.00      0.00     0.00       58     0.00     0.00  P22
+  0.00      0.00     0.00       58     0.00     0.00  T11
+  0.00      0.00     0.00       54     0.00     0.00  A10
+  0.00      0.00     0.00       32     0.00     0.00  std::__detail::_State<char>::~_State()
+  0.00      0.00     0.00       23     0.00     0.00  A2
+  0.00      0.00     0.00       23     0.00     0.00  P17
+  0.00      0.00     0.00       23     0.00     0.00  P18
+  0.00      0.00     0.00       23     0.00     0.00  T7
+  0.00      0.00     0.00       23     0.00     0.00  T8
+  0.00      0.00     0.00       17     0.00     0.00  std::__detail::_State<char>::_State(std::__detail::_State<char>&&)
+  0.00      0.00     0.00       10     0.00     0.00  std::__detail::_Scanner<char>::_M_advance()
+  0.00      0.00     0.00        8     0.00     0.00  std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_try_char()
+  0.00      0.00     0.00        7     0.00     0.00  P21
+  0.00      0.00     0.00        7     0.00     0.00  T10
+  0.00      0.00     0.00        5     0.00     0.00  std::_Function_base::_Base_manager<Data::UntypedSharedPtr::emptyDestructor<double const>()::{lambda(double const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<Data::UntypedSharedPtr::emptyDestructor<double const>()::{lambda(double const*)#1}> const&, std::_Manager_operation)
+  0.00      0.00     0.00        5     0.00     0.00  void std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > >::_M_realloc_insert<std::__detail::_State<char> >(__gnu_cxx::__normal_iterator<std::__detail::_State<char>*, std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > > >, std::__detail::_State<char>&&)
+  0.00      0.00     0.00        5     0.00     0.00  std::__detail::_Scanner<char>::_M_scan_normal()
+  0.00      0.00     0.00        5     0.00     0.00  std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_assertion()
+  0.00      0.00     0.00        5     0.00     0.00  std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom()
+  0.00      0.00     0.00        4     0.00     0.00  ALEWrapper::updateScreen()
+  0.00      0.00     0.00        4     0.00     0.00  std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::__cxx11::regex_traits<char>, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+  0.00      0.00     0.00        4     0.00     0.00  std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+  0.00      0.00     0.00        4     0.00     0.00  std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >& std::deque<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> > > >::emplace_back<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> > >(std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >&&)
+  0.00      0.00     0.00        4     0.00     0.00  std::__detail::_Scanner<char>::_M_scan_in_bracket()
+  0.00      0.00     0.00        4     0.00     0.00  std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_quantifier()
+  0.00      0.00     0.00        4     0.00     0.00  std::__throw_regex_error(std::regex_constants::error_type, char const*)
+  0.00      0.00     0.00        3     0.00     0.00  A15
+  0.00      0.00     0.00        3     0.00     0.00  bool std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_expression_term<false, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>&)
+  0.00      0.00     0.00        3     0.00     0.00  std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_bracket_expression()
+  0.00      0.00     0.00        2     0.00     0.00  void std::vector<unsigned long, std::allocator<unsigned long> >::_M_realloc_insert<unsigned long const&>(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, unsigned long const&)
+  0.00      0.00     0.00        2     0.00     0.00  std::__detail::_NFA<std::__cxx11::regex_traits<char> >::_M_insert_matcher(std::function<bool (char)>)
+  0.00      0.00     0.00        2     0.00     0.00  std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative()
+  0.00      0.00     0.00        2     0.00     0.00  std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_disjunction()
+  0.00      0.00     0.00        1     0.00     0.00  Data::UntypedSharedPtr::Model<double>::~Model()
+  0.00      0.00     0.00        1     0.00     0.00  Data::UntypedSharedPtr::Model<double>::getPtrType() const
+  0.00      0.00     0.00        1     0.00     0.00  Data::UntypedSharedPtr::Model<double>::getType() const
+  0.00      0.00     0.00        1     0.00     0.00  std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<Data::UntypedSharedPtr::Model<double>, std::allocator<Data::UntypedSharedPtr::Model<double> >, double*&, std::function<void (double const*)>&>(Data::UntypedSharedPtr::Model<double>*&, std::_Sp_alloc_shared_tag<std::allocator<Data::UntypedSharedPtr::Model<double> > >, double*&, std::function<void (double const*)>&)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Function_handler<void (double const*), Data::UntypedSharedPtr::emptyDestructor<double const>()::{lambda(double const*)#1}>::_M_invoke(std::_Any_data const&, double const*&&)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Sp_counted_deleter<double*, std::function<void (double const*)>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Sp_counted_ptr_inplace<Data::UntypedSharedPtr::Model<double>, std::allocator<Data::UntypedSharedPtr::Model<double> >, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+  0.00      0.00     0.00        1     0.00     0.00  void std::vector<std::pair<char, char>, std::allocator<std::pair<char, char> > >::_M_realloc_insert<std::pair<char, char> >(__gnu_cxx::__normal_iterator<std::pair<char, char>*, std::vector<std::pair<char, char>, std::allocator<std::pair<char, char> > > >, std::pair<char, char>&&)
+  0.00      0.00     0.00        1     0.00     0.00  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+  0.00      0.00     0.00        1     0.00     0.00  std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_M_ready()
+  0.00      0.00     0.00        1     0.00     0.00  std::__detail::_Scanner<char>::_M_eat_escape_ecma()
+  0.00      0.00     0.00        1     0.00     0.00  std::__detail::_Scanner<char>::_Scanner(char const*, char const*, std::regex_constants::syntax_option_type, std::locale)
+  0.00      0.00     0.00        1     0.00     0.00  void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_char_matcher<false, false>()
+  0.00      0.00     0.00        1     0.00     0.00  void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_bracket_matcher<false, false>(bool)
+  0.00      0.00     0.00        1     0.00     0.00  std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_pop()
+  0.00      0.00     0.00        1     0.00     0.00  std::function<bool (char)>::function<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>, void, void>(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>)
+  0.00      0.00     0.00        1     0.00     0.00  main
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) no time propagated
+
+index % time    self  children    called     name
+[1]      0.0    0.00    0.00       1+8       <cycle 1 as a whole> [1]
+                0.00    0.00       5             std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom() <cycle 1> [85]
+                0.00    0.00       2+3           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative() <cycle 1> [97]
+                0.00    0.00       2             std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_disjunction() <cycle 1> [98]
+-----------------------------------------------
+                0.00    0.00   28548/28548       executeTeam [3]
+[2]      0.0    0.00    0.00   28548         execute [2]
+                0.00    0.00    5231/5231        P32 [6]
+                0.00    0.00    5231/5231        P34 [8]
+                0.00    0.00    5231/5231        P33 [7]
+                0.00    0.00    5177/5177        P23 [12]
+                0.00    0.00    5177/5177        P31 [20]
+                0.00    0.00    5177/5177        P30 [19]
+                0.00    0.00    5177/5177        P29 [18]
+                0.00    0.00    5177/5177        P28 [17]
+                0.00    0.00    5177/5177        P27 [16]
+                0.00    0.00    5177/5177        P26 [15]
+                0.00    0.00    5177/5177        P25 [14]
+                0.00    0.00    5177/5177        P24 [13]
+                0.00    0.00    2402/2402        P14 [23]
+                0.00    0.00    2402/2402        P16 [24]
+                0.00    0.00    2337/2337        P20 [26]
+                0.00    0.00    2337/2337        P19 [25]
+                0.00    0.00    2097/2097        P4 [28]
+                0.00    0.00    1133/1133        P3 [31]
+                0.00    0.00    1093/1093        P0 [33]
+                0.00    0.00    1093/1093        P1 [34]
+                0.00    0.00     964/964         P9 [41]
+                0.00    0.00     964/964         P13 [40]
+                0.00    0.00     964/964         P12 [39]
+                0.00    0.00     964/964         P11 [38]
+                0.00    0.00     964/964         P10 [37]
+                0.00    0.00     707/707         P2 [45]
+                0.00    0.00     358/358         P5 [47]
+                0.00    0.00     358/358         P8 [50]
+                0.00    0.00     358/358         P7 [49]
+                0.00    0.00     358/358         P6 [48]
+                0.00    0.00      65/65          P15 [54]
+                0.00    0.00      58/58          P22 [56]
+                0.00    0.00      23/23          P17 [60]
+                0.00    0.00      23/23          P18 [61]
+                0.00    0.00       7/7           P21 [64]
+-----------------------------------------------
+                0.00    0.00   28548/28548       executeFromVertex [72]
+[3]      0.0    0.00    0.00   28548         executeTeam [3]
+                0.00    0.00   28548/28548       execute [2]
+                0.00    0.00   28548/28548       push [4]
+-----------------------------------------------
+                0.00    0.00   28548/28548       executeTeam [3]
+[4]      0.0    0.00    0.00   28548         push [4]
+-----------------------------------------------
+                0.00    0.00   28544/28544       reset [11]
+[5]      0.0    0.00    0.00   28544         pop [5]
+-----------------------------------------------
+                0.00    0.00    5231/5231        execute [2]
+[6]      0.0    0.00    0.00    5231         P32 [6]
+-----------------------------------------------
+                0.00    0.00    5231/5231        execute [2]
+[7]      0.0    0.00    0.00    5231         P33 [7]
+-----------------------------------------------
+                0.00    0.00    5231/5231        execute [2]
+[8]      0.0    0.00    0.00    5231         P34 [8]
+-----------------------------------------------
+                0.00    0.00    5231/5231        executeFromVertex [72]
+[9]      0.0    0.00    0.00    5231         T14 [9]
+-----------------------------------------------
+                0.00    0.00    5231/5231        executeFromVertex [72]
+[10]     0.0    0.00    0.00    5231         T15 [10]
+-----------------------------------------------
+                0.00    0.00    5231/5231        inferenceTPG [74]
+[11]     0.0    0.00    0.00    5231         reset [11]
+                0.00    0.00   28544/28544       pop [5]
+-----------------------------------------------
+                0.00    0.00    5177/5177        execute [2]
+[12]     0.0    0.00    0.00    5177         P23 [12]
+-----------------------------------------------
+                0.00    0.00    5177/5177        execute [2]
+[13]     0.0    0.00    0.00    5177         P24 [13]
+-----------------------------------------------
+                0.00    0.00    5177/5177        execute [2]
+[14]     0.0    0.00    0.00    5177         P25 [14]
+-----------------------------------------------
+                0.00    0.00    5177/5177        execute [2]
+[15]     0.0    0.00    0.00    5177         P26 [15]
+-----------------------------------------------
+                0.00    0.00    5177/5177        execute [2]
+[16]     0.0    0.00    0.00    5177         P27 [16]
+-----------------------------------------------
+                0.00    0.00    5177/5177        execute [2]
+[17]     0.0    0.00    0.00    5177         P28 [17]
+-----------------------------------------------
+                0.00    0.00    5177/5177        execute [2]
+[18]     0.0    0.00    0.00    5177         P29 [18]
+-----------------------------------------------
+                0.00    0.00    5177/5177        execute [2]
+[19]     0.0    0.00    0.00    5177         P30 [19]
+-----------------------------------------------
+                0.00    0.00    5177/5177        execute [2]
+[20]     0.0    0.00    0.00    5177         P31 [20]
+-----------------------------------------------
+                0.00    0.00    5177/5177        executeFromVertex [72]
+[21]     0.0    0.00    0.00    5177         T12 [21]
+-----------------------------------------------
+                0.00    0.00    5177/5177        executeFromVertex [72]
+[22]     0.0    0.00    0.00    5177         T13 [22]
+-----------------------------------------------
+                0.00    0.00    2402/2402        execute [2]
+[23]     0.0    0.00    0.00    2402         P14 [23]
+-----------------------------------------------
+                0.00    0.00    2402/2402        execute [2]
+[24]     0.0    0.00    0.00    2402         P16 [24]
+-----------------------------------------------
+                0.00    0.00    2337/2337        execute [2]
+[25]     0.0    0.00    0.00    2337         P19 [25]
+-----------------------------------------------
+                0.00    0.00    2337/2337        execute [2]
+[26]     0.0    0.00    0.00    2337         P20 [26]
+-----------------------------------------------
+                0.00    0.00    2337/2337        executeFromVertex [72]
+[27]     0.0    0.00    0.00    2337         T9 [27]
+-----------------------------------------------
+                0.00    0.00    2097/2097        execute [2]
+[28]     0.0    0.00    0.00    2097         P4 [28]
+-----------------------------------------------
+                0.00    0.00    1610/1610        executeFromVertex [72]
+[29]     0.0    0.00    0.00    1610         A9 [29]
+-----------------------------------------------
+                0.00    0.00    1485/1485        executeFromVertex [72]
+[30]     0.0    0.00    0.00    1485         A7 [30]
+-----------------------------------------------
+                0.00    0.00    1133/1133        execute [2]
+[31]     0.0    0.00    0.00    1133         P3 [31]
+-----------------------------------------------
+                0.00    0.00    1133/1133        executeFromVertex [72]
+[32]     0.0    0.00    0.00    1133         T2 [32]
+-----------------------------------------------
+                0.00    0.00    1093/1093        execute [2]
+[33]     0.0    0.00    0.00    1093         P0 [33]
+-----------------------------------------------
+                0.00    0.00    1093/1093        execute [2]
+[34]     0.0    0.00    0.00    1093         P1 [34]
+-----------------------------------------------
+                0.00    0.00    1093/1093        executeFromVertex [72]
+[35]     0.0    0.00    0.00    1093         T0 [35]
+-----------------------------------------------
+                0.00    0.00    1051/1051        executeFromVertex [72]
+[36]     0.0    0.00    0.00    1051         A17 [36]
+-----------------------------------------------
+                0.00    0.00     964/964         execute [2]
+[37]     0.0    0.00    0.00     964         P10 [37]
+-----------------------------------------------
+                0.00    0.00     964/964         execute [2]
+[38]     0.0    0.00    0.00     964         P11 [38]
+-----------------------------------------------
+                0.00    0.00     964/964         execute [2]
+[39]     0.0    0.00    0.00     964         P12 [39]
+-----------------------------------------------
+                0.00    0.00     964/964         execute [2]
+[40]     0.0    0.00    0.00     964         P13 [40]
+-----------------------------------------------
+                0.00    0.00     964/964         execute [2]
+[41]     0.0    0.00    0.00     964         P9 [41]
+-----------------------------------------------
+                0.00    0.00     964/964         executeFromVertex [72]
+[42]     0.0    0.00    0.00     964         T4 [42]
+-----------------------------------------------
+                0.00    0.00     964/964         executeFromVertex [72]
+[43]     0.0    0.00    0.00     964         T5 [43]
+-----------------------------------------------
+                0.00    0.00     707/707         executeFromVertex [72]
+[44]     0.0    0.00    0.00     707         A6 [44]
+-----------------------------------------------
+                0.00    0.00     707/707         execute [2]
+[45]     0.0    0.00    0.00     707         P2 [45]
+-----------------------------------------------
+                0.00    0.00     707/707         executeFromVertex [72]
+[46]     0.0    0.00    0.00     707         T1 [46]
+-----------------------------------------------
+                0.00    0.00     358/358         execute [2]
+[47]     0.0    0.00    0.00     358         P5 [47]
+-----------------------------------------------
+                0.00    0.00     358/358         execute [2]
+[48]     0.0    0.00    0.00     358         P6 [48]
+-----------------------------------------------
+                0.00    0.00     358/358         execute [2]
+[49]     0.0    0.00    0.00     358         P7 [49]
+-----------------------------------------------
+                0.00    0.00     358/358         execute [2]
+[50]     0.0    0.00    0.00     358         P8 [50]
+-----------------------------------------------
+                0.00    0.00     358/358         executeFromVertex [72]
+[51]     0.0    0.00    0.00     358         T3 [51]
+-----------------------------------------------
+                0.00    0.00     209/209         executeFromVertex [72]
+[52]     0.0    0.00    0.00     209         A8 [52]
+-----------------------------------------------
+                0.00    0.00      89/89          executeFromVertex [72]
+[53]     0.0    0.00    0.00      89         A12 [53]
+-----------------------------------------------
+                0.00    0.00      65/65          execute [2]
+[54]     0.0    0.00    0.00      65         P15 [54]
+-----------------------------------------------
+                0.00    0.00      65/65          executeFromVertex [72]
+[55]     0.0    0.00    0.00      65         T6 [55]
+-----------------------------------------------
+                0.00    0.00      58/58          execute [2]
+[56]     0.0    0.00    0.00      58         P22 [56]
+-----------------------------------------------
+                0.00    0.00      58/58          executeFromVertex [72]
+[57]     0.0    0.00    0.00      58         T11 [57]
+-----------------------------------------------
+                0.00    0.00      54/54          executeFromVertex [72]
+[58]     0.0    0.00    0.00      54         A10 [58]
+-----------------------------------------------
+                0.00    0.00      23/23          executeFromVertex [72]
+[59]     0.0    0.00    0.00      23         A2 [59]
+-----------------------------------------------
+                0.00    0.00      23/23          execute [2]
+[60]     0.0    0.00    0.00      23         P17 [60]
+-----------------------------------------------
+                0.00    0.00      23/23          execute [2]
+[61]     0.0    0.00    0.00      23         P18 [61]
+-----------------------------------------------
+                0.00    0.00      23/23          executeFromVertex [72]
+[62]     0.0    0.00    0.00      23         T7 [62]
+-----------------------------------------------
+                0.00    0.00      23/23          executeFromVertex [72]
+[63]     0.0    0.00    0.00      23         T8 [63]
+-----------------------------------------------
+                0.00    0.00       7/7           execute [2]
+[64]     0.0    0.00    0.00       7         P21 [64]
+-----------------------------------------------
+                0.00    0.00       7/7           executeFromVertex [72]
+[65]     0.0    0.00    0.00       7         T10 [65]
+-----------------------------------------------
+                0.00    0.00       3/3           executeFromVertex [72]
+[66]     0.0    0.00    0.00       3         A15 [66]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [2851]
+[67]     0.0    0.00    0.00       1         main [67]
+-----------------------------------------------
+                0.00    0.00     246/246         std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_M_ready() [109]
+[76]     0.0    0.00    0.00     246         __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > std::__find_if<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__ops::_Iter_equals_val<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const> >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__ops::_Iter_equals_val<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const>, std::random_access_iterator_tag) [76]
+-----------------------------------------------
+                0.00    0.00       2/32          std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_quantifier() [91]
+                0.00    0.00       2/32          std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative() <cycle 1> [97]
+                0.00    0.00       4/32          std::__detail::_NFA<std::__cxx11::regex_traits<char> >::_M_insert_matcher(std::function<bool (char)>) [96]
+                0.00    0.00       4/32          std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom() <cycle 1> [85]
+                0.00    0.00       5/32          std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_Compiler(char const*, char const*, std::locale const&, std::regex_constants::syntax_option_type) [2816]
+                0.00    0.00      15/32          void std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > >::_M_realloc_insert<std::__detail::_State<char> >(__gnu_cxx::__normal_iterator<std::__detail::_State<char>*, std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > > >, std::__detail::_State<char>&&) [82]
+[77]     0.0    0.00    0.00      32         std::__detail::_State<char>::~_State() [77]
+                0.00    0.00       2/4           std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation) [88]
+                0.00    0.00       2/4           std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::__cxx11::regex_traits<char>, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation) [87]
+-----------------------------------------------
+                0.00    0.00       1/17          std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_quantifier() [91]
+                0.00    0.00       2/17          std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative() <cycle 1> [97]
+                0.00    0.00       3/17          std::__detail::_NFA<std::__cxx11::regex_traits<char> >::_M_insert_matcher(std::function<bool (char)>) [96]
+                0.00    0.00       3/17          std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom() <cycle 1> [85]
+                0.00    0.00       3/17          std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_Compiler(char const*, char const*, std::locale const&, std::regex_constants::syntax_option_type) [2816]
+                0.00    0.00       5/17          void std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > >::_M_realloc_insert<std::__detail::_State<char> >(__gnu_cxx::__normal_iterator<std::__detail::_State<char>*, std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > > >, std::__detail::_State<char>&&) [82]
+[78]     0.0    0.00    0.00      17         std::__detail::_State<char>::_State(std::__detail::_State<char>&&) [78]
+-----------------------------------------------
+                0.00    0.00       1/10          std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_quantifier() [91]
+                0.00    0.00       1/10          std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_bracket_expression() [94]
+                0.00    0.00       1/10          std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_Compiler(char const*, char const*, std::locale const&, std::regex_constants::syntax_option_type) [2816]
+                0.00    0.00       2/10          bool std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_expression_term<false, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>&) [93]
+                0.00    0.00       2/10          std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom() <cycle 1> [85]
+                0.00    0.00       3/10          std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_try_char() [80]
+[79]     0.0    0.00    0.00      10         std::__detail::_Scanner<char>::_M_advance() [79]
+-----------------------------------------------
+                0.00    0.00       3/8           bool std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_expression_term<false, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>&) [93]
+                0.00    0.00       5/8           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom() <cycle 1> [85]
+[80]     0.0    0.00    0.00       8         std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_try_char() [80]
+                0.00    0.00       3/10          std::__detail::_Scanner<char>::_M_advance() [79]
+                0.00    0.00       2/4           std::__detail::_Scanner<char>::_M_scan_in_bracket() [90]
+                0.00    0.00       1/5           std::__detail::_Scanner<char>::_M_scan_normal() [83]
+-----------------------------------------------
+                0.00    0.00       1/5           std::_Sp_counted_deleter<double*, std::function<void (double const*)>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>::_M_destroy() [2695]
+                0.00    0.00       1/5           Data::ArrayWrapper<double>::getDataAt(std::type_info const&, unsigned long) const [2592]
+                0.00    0.00       3/5           std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<Data::UntypedSharedPtr::Model<double>, std::allocator<Data::UntypedSharedPtr::Model<double> >, double*&, std::function<void (double const*)>&>(Data::UntypedSharedPtr::Model<double>*&, std::_Sp_alloc_shared_tag<std::allocator<Data::UntypedSharedPtr::Model<double> > >, double*&, std::function<void (double const*)>&) [102]
+[81]     0.0    0.00    0.00       5         std::_Function_base::_Base_manager<Data::UntypedSharedPtr::emptyDestructor<double const>()::{lambda(double const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<Data::UntypedSharedPtr::emptyDestructor<double const>()::{lambda(double const*)#1}> const&, std::_Manager_operation) [81]
+-----------------------------------------------
+                0.00    0.00       1/5           std::__detail::_NFA<std::__cxx11::regex_traits<char> >::_M_insert_matcher(std::function<bool (char)>) [96]
+                0.00    0.00       1/5           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_quantifier() [91]
+                0.00    0.00       1/5           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom() <cycle 1> [85]
+                0.00    0.00       2/5           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_Compiler(char const*, char const*, std::locale const&, std::regex_constants::syntax_option_type) [2816]
+[82]     0.0    0.00    0.00       5         void std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > >::_M_realloc_insert<std::__detail::_State<char> >(__gnu_cxx::__normal_iterator<std::__detail::_State<char>*, std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > > >, std::__detail::_State<char>&&) [82]
+                0.00    0.00      15/32          std::__detail::_State<char>::~_State() [77]
+                0.00    0.00       5/17          std::__detail::_State<char>::_State(std::__detail::_State<char>&&) [78]
+                0.00    0.00       2/4           std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation) [88]
+                0.00    0.00       2/4           std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::__cxx11::regex_traits<char>, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation) [87]
+-----------------------------------------------
+                0.00    0.00       1/5           std::__detail::_Scanner<char>::_Scanner(char const*, char const*, std::regex_constants::syntax_option_type, std::locale) [111]
+                0.00    0.00       1/5           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_try_char() [80]
+                0.00    0.00       1/5           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_quantifier() [91]
+                0.00    0.00       1/5           bool std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_expression_term<false, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>&) [93]
+                0.00    0.00       1/5           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom() <cycle 1> [85]
+[83]     0.0    0.00    0.00       5         std::__detail::_Scanner<char>::_M_scan_normal() [83]
+-----------------------------------------------
+                0.00    0.00       5/5           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative() <cycle 1> [97]
+[84]     0.0    0.00    0.00       5         std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_assertion() [84]
+-----------------------------------------------
+                                   5             std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative() <cycle 1> [97]
+[85]     0.0    0.00    0.00       5         std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom() <cycle 1> [85]
+                0.00    0.00       5/8           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_try_char() [80]
+                0.00    0.00       4/32          std::__detail::_State<char>::~_State() [77]
+                0.00    0.00       3/3           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_bracket_expression() [94]
+                0.00    0.00       3/17          std::__detail::_State<char>::_State(std::__detail::_State<char>&&) [78]
+                0.00    0.00       2/10          std::__detail::_Scanner<char>::_M_advance() [79]
+                0.00    0.00       1/1           void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_char_matcher<false, false>() [112]
+                0.00    0.00       1/1           std::__detail::_Scanner<char>::_M_eat_escape_ecma() [110]
+                0.00    0.00       1/5           std::__detail::_Scanner<char>::_M_scan_normal() [83]
+                0.00    0.00       1/1           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_pop() [114]
+                0.00    0.00       1/5           void std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > >::_M_realloc_insert<std::__detail::_State<char> >(__gnu_cxx::__normal_iterator<std::__detail::_State<char>*, std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > > >, std::__detail::_State<char>&&) [82]
+                0.00    0.00       1/2           void std::vector<unsigned long, std::allocator<unsigned long> >::_M_realloc_insert<unsigned long const&>(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, unsigned long const&) [95]
+                                   1             std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_disjunction() <cycle 1> [98]
+-----------------------------------------------
+                0.00    0.00       1/4           ALEWrapper::getDataSources() [122]
+                0.00    0.00       3/4           ALEWrapper::reset(unsigned long, Learn::LearningMode) [124]
+[86]     0.0    0.00    0.00       4         ALEWrapper::updateScreen() [86]
+-----------------------------------------------
+                0.00    0.00       2/4           std::__detail::_State<char>::~_State() [77]
+                0.00    0.00       2/4           void std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > >::_M_realloc_insert<std::__detail::_State<char> >(__gnu_cxx::__normal_iterator<std::__detail::_State<char>*, std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > > >, std::__detail::_State<char>&&) [82]
+[87]     0.0    0.00    0.00       4         std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::__cxx11::regex_traits<char>, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation) [87]
+-----------------------------------------------
+                0.00    0.00       2/4           std::__detail::_State<char>::~_State() [77]
+                0.00    0.00       2/4           void std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > >::_M_realloc_insert<std::__detail::_State<char> >(__gnu_cxx::__normal_iterator<std::__detail::_State<char>*, std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > > >, std::__detail::_State<char>&&) [82]
+[88]     0.0    0.00    0.00       4         std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation) [88]
+-----------------------------------------------
+                0.00    0.00       1/4           void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_char_matcher<false, false>() [112]
+                0.00    0.00       1/4           void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_bracket_matcher<false, false>(bool) [113]
+                0.00    0.00       2/4           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative() <cycle 1> [97]
+[89]     0.0    0.00    0.00       4         std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >& std::deque<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> > > >::emplace_back<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> > >(std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >&&) [89]
+-----------------------------------------------
+                0.00    0.00       1/4           bool std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_expression_term<false, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>&) [93]
+                0.00    0.00       1/4           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_bracket_expression() [94]
+                0.00    0.00       2/4           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_try_char() [80]
+[90]     0.0    0.00    0.00       4         std::__detail::_Scanner<char>::_M_scan_in_bracket() [90]
+-----------------------------------------------
+                0.00    0.00       4/4           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative() <cycle 1> [97]
+[91]     0.0    0.00    0.00       4         std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_quantifier() [91]
+                0.00    0.00       2/32          std::__detail::_State<char>::~_State() [77]
+                0.00    0.00       1/5           std::__detail::_Scanner<char>::_M_scan_normal() [83]
+                0.00    0.00       1/10          std::__detail::_Scanner<char>::_M_advance() [79]
+                0.00    0.00       1/17          std::__detail::_State<char>::_State(std::__detail::_State<char>&&) [78]
+                0.00    0.00       1/5           void std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > >::_M_realloc_insert<std::__detail::_State<char> >(__gnu_cxx::__normal_iterator<std::__detail::_State<char>*, std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > > >, std::__detail::_State<char>&&) [82]
+-----------------------------------------------
+                0.00    0.00       4/4           __libc_csu_init [2851]
+[92]     0.0    0.00    0.00       4         std::__throw_regex_error(std::regex_constants::error_type, char const*) [92]
+-----------------------------------------------
+                0.00    0.00       3/3           void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_bracket_matcher<false, false>(bool) [113]
+[93]     0.0    0.00    0.00       3         bool std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_expression_term<false, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>&) [93]
+                0.00    0.00       3/8           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_try_char() [80]
+                0.00    0.00       2/10          std::__detail::_Scanner<char>::_M_advance() [79]
+                0.00    0.00       1/5           std::__detail::_Scanner<char>::_M_scan_normal() [83]
+                0.00    0.00       1/4           std::__detail::_Scanner<char>::_M_scan_in_bracket() [90]
+                0.00    0.00       1/1           void std::vector<std::pair<char, char>, std::allocator<std::pair<char, char> > >::_M_realloc_insert<std::pair<char, char> >(__gnu_cxx::__normal_iterator<std::pair<char, char>*, std::vector<std::pair<char, char>, std::allocator<std::pair<char, char> > > >, std::pair<char, char>&&) [107]
+-----------------------------------------------
+                0.00    0.00       3/3           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom() <cycle 1> [85]
+[94]     0.0    0.00    0.00       3         std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_bracket_expression() [94]
+                0.00    0.00       1/1           void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_bracket_matcher<false, false>(bool) [113]
+                0.00    0.00       1/4           std::__detail::_Scanner<char>::_M_scan_in_bracket() [90]
+                0.00    0.00       1/10          std::__detail::_Scanner<char>::_M_advance() [79]
+-----------------------------------------------
+                0.00    0.00       1/2           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom() <cycle 1> [85]
+                0.00    0.00       1/2           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_Compiler(char const*, char const*, std::locale const&, std::regex_constants::syntax_option_type) [2816]
+[95]     0.0    0.00    0.00       2         void std::vector<unsigned long, std::allocator<unsigned long> >::_M_realloc_insert<unsigned long const&>(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, unsigned long const&) [95]
+-----------------------------------------------
+                0.00    0.00       1/2           void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_char_matcher<false, false>() [112]
+                0.00    0.00       1/2           void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_bracket_matcher<false, false>(bool) [113]
+[96]     0.0    0.00    0.00       2         std::__detail::_NFA<std::__cxx11::regex_traits<char> >::_M_insert_matcher(std::function<bool (char)>) [96]
+                0.00    0.00       4/32          std::__detail::_State<char>::~_State() [77]
+                0.00    0.00       3/17          std::__detail::_State<char>::_State(std::__detail::_State<char>&&) [78]
+                0.00    0.00       1/5           void std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > >::_M_realloc_insert<std::__detail::_State<char> >(__gnu_cxx::__normal_iterator<std::__detail::_State<char>*, std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > > >, std::__detail::_State<char>&&) [82]
+-----------------------------------------------
+                                   3             std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative() <cycle 1> [97]
+                                   2             std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_disjunction() <cycle 1> [98]
+[97]     0.0    0.00    0.00       2+3       std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative() <cycle 1> [97]
+                0.00    0.00       5/5           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_assertion() [84]
+                0.00    0.00       4/4           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_quantifier() [91]
+                0.00    0.00       2/17          std::__detail::_State<char>::_State(std::__detail::_State<char>&&) [78]
+                0.00    0.00       2/32          std::__detail::_State<char>::~_State() [77]
+                0.00    0.00       2/4           std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >& std::deque<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> > > >::emplace_back<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> > >(std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >&&) [89]
+                                   5             std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom() <cycle 1> [85]
+                                   3             std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative() <cycle 1> [97]
+-----------------------------------------------
+                                   1             std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom() <cycle 1> [85]
+                0.00    0.00       1/1           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_Compiler(char const*, char const*, std::locale const&, std::regex_constants::syntax_option_type) [2816]
+[98]     0.0    0.00    0.00       2         std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_disjunction() <cycle 1> [98]
+                                   2             std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative() <cycle 1> [97]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release() [103]
+[99]     0.0    0.00    0.00       1         Data::UntypedSharedPtr::Model<double>::~Model() [99]
+-----------------------------------------------
+                0.00    0.00       1/1           std::shared_ptr<std::remove_all_extents<double>::type> Data::UntypedSharedPtr::getSharedPointer<double>() const [2594]
+[100]    0.0    0.00    0.00       1         Data::UntypedSharedPtr::Model<double>::getPtrType() const [100]
+-----------------------------------------------
+                0.00    0.00       1/1           std::shared_ptr<std::remove_all_extents<double>::type> Data::UntypedSharedPtr::getSharedPointer<double>() const [2594]
+[101]    0.0    0.00    0.00       1         Data::UntypedSharedPtr::Model<double>::getType() const [101]
+-----------------------------------------------
+                0.00    0.00       1/1           Data::ArrayWrapper<double>::getDataAt(std::type_info const&, unsigned long) const [2592]
+[102]    0.0    0.00    0.00       1         std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<Data::UntypedSharedPtr::Model<double>, std::allocator<Data::UntypedSharedPtr::Model<double> >, double*&, std::function<void (double const*)>&>(Data::UntypedSharedPtr::Model<double>*&, std::_Sp_alloc_shared_tag<std::allocator<Data::UntypedSharedPtr::Model<double> > >, double*&, std::function<void (double const*)>&) [102]
+                0.00    0.00       3/5           std::_Function_base::_Base_manager<Data::UntypedSharedPtr::emptyDestructor<double const>()::{lambda(double const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<Data::UntypedSharedPtr::emptyDestructor<double const>()::{lambda(double const*)#1}> const&, std::_Manager_operation) [81]
+-----------------------------------------------
+                0.00    0.00       1/1           std::shared_ptr<std::remove_all_extents<double>::type> Data::UntypedSharedPtr::getSharedPointer<double>() const [2594]
+[103]    0.0    0.00    0.00       1         std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release() [103]
+                0.00    0.00       1/1           std::_Sp_counted_deleter<double*, std::function<void (double const*)>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>::_M_dispose() [105]
+                0.00    0.00       1/1           Data::UntypedSharedPtr::Model<double>::~Model() [99]
+                0.00    0.00       1/1           std::_Sp_counted_ptr_inplace<Data::UntypedSharedPtr::Model<double>, std::allocator<Data::UntypedSharedPtr::Model<double> >, (__gnu_cxx::_Lock_policy)2>::_M_dispose() [106]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Sp_counted_deleter<double*, std::function<void (double const*)>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>::_M_dispose() [105]
+[104]    0.0    0.00    0.00       1         std::_Function_handler<void (double const*), Data::UntypedSharedPtr::emptyDestructor<double const>()::{lambda(double const*)#1}>::_M_invoke(std::_Any_data const&, double const*&&) [104]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release() [103]
+[105]    0.0    0.00    0.00       1         std::_Sp_counted_deleter<double*, std::function<void (double const*)>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>::_M_dispose() [105]
+                0.00    0.00       1/1           std::_Function_handler<void (double const*), Data::UntypedSharedPtr::emptyDestructor<double const>()::{lambda(double const*)#1}>::_M_invoke(std::_Any_data const&, double const*&&) [104]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release() [103]
+[106]    0.0    0.00    0.00       1         std::_Sp_counted_ptr_inplace<Data::UntypedSharedPtr::Model<double>, std::allocator<Data::UntypedSharedPtr::Model<double> >, (__gnu_cxx::_Lock_policy)2>::_M_dispose() [106]
+-----------------------------------------------
+                0.00    0.00       1/1           bool std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_expression_term<false, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>&) [93]
+[107]    0.0    0.00    0.00       1         void std::vector<std::pair<char, char>, std::allocator<std::pair<char, char> > >::_M_realloc_insert<std::pair<char, char> >(__gnu_cxx::__normal_iterator<std::pair<char, char>*, std::vector<std::pair<char, char>, std::allocator<std::pair<char, char> > > >, std::pair<char, char>&&) [107]
+-----------------------------------------------
+                0.00    0.00       1/1           ALEWrapper::setAle(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) [125]
+[108]    0.0    0.00    0.00       1         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [108]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_bracket_matcher<false, false>(bool) [113]
+[109]    0.0    0.00    0.00       1         std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_M_ready() [109]
+                0.00    0.00     246/246         __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > std::__find_if<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__ops::_Iter_equals_val<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const> >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__ops::_Iter_equals_val<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const>, std::random_access_iterator_tag) [76]
+-----------------------------------------------
+                0.00    0.00       1/1           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom() <cycle 1> [85]
+[110]    0.0    0.00    0.00       1         std::__detail::_Scanner<char>::_M_eat_escape_ecma() [110]
+-----------------------------------------------
+                0.00    0.00       1/1           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_Compiler(char const*, char const*, std::locale const&, std::regex_constants::syntax_option_type) [2816]
+[111]    0.0    0.00    0.00       1         std::__detail::_Scanner<char>::_Scanner(char const*, char const*, std::regex_constants::syntax_option_type, std::locale) [111]
+                0.00    0.00       1/5           std::__detail::_Scanner<char>::_M_scan_normal() [83]
+-----------------------------------------------
+                0.00    0.00       1/1           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom() <cycle 1> [85]
+[112]    0.0    0.00    0.00       1         void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_char_matcher<false, false>() [112]
+                0.00    0.00       1/2           std::__detail::_NFA<std::__cxx11::regex_traits<char> >::_M_insert_matcher(std::function<bool (char)>) [96]
+                0.00    0.00       1/4           std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >& std::deque<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> > > >::emplace_back<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> > >(std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >&&) [89]
+-----------------------------------------------
+                0.00    0.00       1/1           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_bracket_expression() [94]
+[113]    0.0    0.00    0.00       1         void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_bracket_matcher<false, false>(bool) [113]
+                0.00    0.00       3/3           bool std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_expression_term<false, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>&) [93]
+                0.00    0.00       1/1           std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_M_ready() [109]
+                0.00    0.00       1/1           std::function<bool (char)>::function<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>, void, void>(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>) [115]
+                0.00    0.00       1/2           std::__detail::_NFA<std::__cxx11::regex_traits<char> >::_M_insert_matcher(std::function<bool (char)>) [96]
+                0.00    0.00       1/4           std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >& std::deque<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> > > >::emplace_back<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> > >(std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >&&) [89]
+-----------------------------------------------
+                0.00    0.00       1/1           std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom() <cycle 1> [85]
+[114]    0.0    0.00    0.00       1         std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_pop() [114]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_bracket_matcher<false, false>(bool) [113]
+[115]    0.0    0.00    0.00       1         std::function<bool (char)>::function<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>, void, void>(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>) [115]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [58] A10                     [7] P33                    [89] std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >& std::deque<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> > > >::emplace_back<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> > >(std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >&&)
+  [53] A12                     [8] P34                    [82] void std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > >::_M_realloc_insert<std::__detail::_State<char> >(__gnu_cxx::__normal_iterator<std::__detail::_State<char>*, std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > > >, std::__detail::_State<char>&&)
+  [66] A15                    [28] P4                    [107] void std::vector<std::pair<char, char>, std::allocator<std::pair<char, char> > >::_M_realloc_insert<std::pair<char, char> >(__gnu_cxx::__normal_iterator<std::pair<char, char>*, std::vector<std::pair<char, char>, std::allocator<std::pair<char, char> > > >, std::pair<char, char>&&)
+  [36] A17                    [47] P5                     [95] void std::vector<unsigned long, std::allocator<unsigned long> >::_M_realloc_insert<unsigned long const&>(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, unsigned long const&)
+  [59] A2                     [48] P6                    [108] void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+  [44] A6                     [49] P7                    [109] std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_M_ready()
+  [30] A7                     [50] P8                     [96] std::__detail::_NFA<std::__cxx11::regex_traits<char> >::_M_insert_matcher(std::function<bool (char)>)
+  [52] A8                     [41] P9                     [78] std::__detail::_State<char>::_State(std::__detail::_State<char>&&)
+  [29] A9                     [35] T0                     [77] std::__detail::_State<char>::~_State()
+  [33] P0                     [46] T1                     [79] std::__detail::_Scanner<char>::_M_advance()
+  [34] P1                     [65] T10                    [83] std::__detail::_Scanner<char>::_M_scan_normal()
+  [37] P10                    [57] T11                   [110] std::__detail::_Scanner<char>::_M_eat_escape_ecma()
+  [38] P11                    [21] T12                    [90] std::__detail::_Scanner<char>::_M_scan_in_bracket()
+  [39] P12                    [22] T13                   [111] std::__detail::_Scanner<char>::_Scanner(char const*, char const*, std::regex_constants::syntax_option_type, std::locale)
+  [40] P13                     [9] T14                    [80] std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_try_char()
+  [23] P14                    [10] T15                    [84] std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_assertion()
+  [54] P15                    [32] T2                     [91] std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_quantifier()
+  [24] P16                    [51] T3                     [97] std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative()
+  [60] P17                    [42] T4                     [98] std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_disjunction()
+  [61] P18                    [43] T5                     [93] bool std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_expression_term<false, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>&)
+  [25] P19                    [55] T6                     [94] std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_bracket_expression()
+  [45] P2                     [62] T7                    [112] void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_char_matcher<false, false>()
+  [26] P20                    [63] T8                    [113] void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_bracket_matcher<false, false>(bool)
+  [64] P21                    [27] T9                    [114] std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_pop()
+  [56] P22                    [86] ALEWrapper::updateScreen() [85] std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom()
+  [12] P23                    [99] Data::UntypedSharedPtr::Model<double>::~Model() [115] std::function<bool (char)>::function<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>, void, void>(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>)
+  [13] P24                   [100] Data::UntypedSharedPtr::Model<double>::getPtrType() const [92] std::__throw_regex_error(std::regex_constants::error_type, char const*)
+  [14] P25                   [101] Data::UntypedSharedPtr::Model<double>::getType() const [76] __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > std::__find_if<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__ops::_Iter_equals_val<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const> >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__ops::_Iter_equals_val<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const>, std::random_access_iterator_tag)
+  [15] P26                    [87] std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::__cxx11::regex_traits<char>, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation) [2] execute
+  [16] P27                    [88] std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation) [3] executeTeam
+  [17] P28                    [81] std::_Function_base::_Base_manager<Data::UntypedSharedPtr::emptyDestructor<double const>()::{lambda(double const*)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<Data::UntypedSharedPtr::emptyDestructor<double const>()::{lambda(double const*)#1}> const&, std::_Manager_operation) [67] main
+  [18] P29                   [102] std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<Data::UntypedSharedPtr::Model<double>, std::allocator<Data::UntypedSharedPtr::Model<double> >, double*&, std::function<void (double const*)>&>(Data::UntypedSharedPtr::Model<double>*&, std::_Sp_alloc_shared_tag<std::allocator<Data::UntypedSharedPtr::Model<double> > >, double*&, std::function<void (double const*)>&) [5] pop
+  [31] P3                    [103] std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release() [4] push
+  [19] P30                   [104] std::_Function_handler<void (double const*), Data::UntypedSharedPtr::emptyDestructor<double const>()::{lambda(double const*)#1}>::_M_invoke(std::_Any_data const&, double const*&&) [11] reset
+  [20] P31                   [105] std::_Sp_counted_deleter<double*, std::function<void (double const*)>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>::_M_dispose() [1] <cycle 1>
+   [6] P32                   [106] std::_Sp_counted_ptr_inplace<Data::UntypedSharedPtr::Model<double>, std::allocator<Data::UntypedSharedPtr::Model<double> >, (__gnu_cxx::_Lock_policy)2>::_M_dispose()

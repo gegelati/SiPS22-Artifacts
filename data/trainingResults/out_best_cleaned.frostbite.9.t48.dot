@@ -1,0 +1,148 @@
+digraph{
+	graph[pad = "0.212, 0.055" bgcolor = lightgray]
+	node[shape=circle style = filled label = ""]
+		T0 [fillcolor="#66ddff"]
+		T1 [fillcolor="#66ddff"]
+		T2 [fillcolor="#66ddff"]
+		T3 [fillcolor="#66ddff"]
+		T4 [fillcolor="#66ddff"]
+		T5 [fillcolor="#66ddff"]
+		T6 [fillcolor="#66ddff"]
+		T7 [fillcolor="#66ddff"]
+		T8 [fillcolor="#66ddff"]
+		T9 [fillcolor="#66ddff"]
+		T10 [fillcolor="#66ddff"]
+		T11 [fillcolor="#66ddff"]
+		T12 [fillcolor="#66ddff"]
+		T13 [fillcolor="#1199bb"]
+		P0 [fillcolor="#cccccc" shape=point] //
+		I0 [shape=box style=invis label="1|5&1|1163#1|713&#92;n1|0&1|813#0|1301&#92;n"]
+		P0 -> I0[style=invis]
+		A0 [fillcolor="#ff3366" shape=box margin=0.03 width=0 height=0 label="8"]
+		T0 -> P0 -> A0
+		P1 [fillcolor="#cccccc" shape=point] //
+		I1 [shape=box style=invis label="5|1&1|410#0|1173&#92;n2|0&0|145#1|1042&#92;n"]
+		P1 -> I1[style=invis]
+		A1 [fillcolor="#ff3366" shape=box margin=0.03 width=0 height=0 label="13"]
+		T1 -> P1 -> A1
+		P2 [fillcolor="#cccccc" shape=point] //
+		I2 [shape=box style=invis label="4|1&1|79#1|106&#92;n5|0&0|1249#0|599&#92;n2|2&1|664#0|256&#92;n2|6&1|1333#0|130&#92;n3|7&1|86#1|530&#92;n5|4&0|18#1|843&#92;n1|5&0|590#0|1244&#92;n4|0&0|1125#0|863&#92;n"]
+		P2 -> I2[style=invis]
+		A2 [fillcolor="#ff3366" shape=box margin=0.03 width=0 height=0 label="10"]
+		T1 -> P2 -> A2
+		P3 [fillcolor="#cccccc" shape=point] //
+		I3 [shape=box style=invis label="4|2&1|942#1|85&#92;n0|1&1|720#0|258&#92;n7|0&1|746#0|773&#92;n3|0&0|1297#0|928&#92;n"]
+		P3 -> I3[style=invis]
+		A3 [fillcolor="#ff3366" shape=box margin=0.03 width=0 height=0 label="1"]
+		T1 -> P3 -> A3
+		P4 [fillcolor="#cccccc" shape=point] //
+		I4 [shape=box style=invis label="1|0&1|713#1|911&#92;n"]
+		P4 -> I4[style=invis]
+		A4 [fillcolor="#ff3366" shape=box margin=0.03 width=0 height=0 label="14"]
+		T2 -> P4 -> A4
+		P5 [fillcolor="#cccccc" shape=point] //
+		I5 [shape=box style=invis label="1|5&1|1163#1|713&#92;n1|0&1|1186#0|1301&#92;n"]
+		P5 -> I5[style=invis]
+		A5 [fillcolor="#ff3366" shape=box margin=0.03 width=0 height=0 label="8"]
+		T3 -> P5 -> A5
+		P6 [fillcolor="#cccccc" shape=point] //
+		I6 [shape=box style=invis label="4|5&1|89#0|1339&#92;n7|0&0|805#0|731&#92;n"]
+		P6 -> I6[style=invis]
+		A6 [fillcolor="#ff3366" shape=box margin=0.03 width=0 height=0 label="10"]
+		T3 -> P6 -> A6
+		P7 [fillcolor="#cccccc" shape=point] //
+		I7 [shape=box style=invis label="1|0&1|713#1|911&#92;n7|0&0|992#1|1109&#92;n"]
+		P7 -> I7[style=invis]
+		T3 -> P7 -> T2
+		P8 [fillcolor="#cccccc" shape=point] //
+		I8 [shape=box style=invis label="3|0&1|1297#0|1088&#92;n"]
+		P8 -> I8[style=invis]
+		T4 -> P8 -> T1
+		P9 [fillcolor="#cccccc" shape=point] //
+		I9 [shape=box style=invis label="3|0&1|47#0|1239&#92;n"]
+		P9 -> I9[style=invis]
+		T5 -> P9 -> T1
+		P10 [fillcolor="#cccccc" shape=point] //
+		I10 [shape=box style=invis label="3|0&1|1189#0|1009&#92;n"]
+		P10 -> I10[style=invis]
+		T6 -> P10 -> T4
+		P11 [fillcolor="#cccccc" shape=point] //
+		I11 [shape=box style=invis label="3|0&1|1325#0|217&#92;n"]
+		P11 -> I11[style=invis]
+		T7 -> P11 -> T1
+		P12 [fillcolor="#cccccc" shape=point] //
+		I12 [shape=box style=invis label="4|0&1|755#1|86&#92;n3|0&0|1208#0|1036&#92;n"]
+		P12 -> I12[style=invis]
+		A7 [fillcolor="#ff3366" shape=box margin=0.03 width=0 height=0 label="10"]
+		T7 -> P12 -> A7
+		P13 [fillcolor="#cccccc" shape=point] //
+		I13 [shape=box style=invis label="6|1&1|79#1|106&#92;n5|0&0|1249#0|599&#92;n2|2&1|664#0|256&#92;n4|6&1|1333#0|130&#92;n4|5&1|668#0|1318&#92;n1|6&1|19#1|275&#92;n1|2&1|1299#0|1085&#92;n3|7&1|86#1|530&#92;n5|4&0|18#1|843&#92;n1|5&0|590#0|1244&#92;n4|0&0|1125#0|863&#92;n"]
+		P13 -> I13[style=invis]
+		T8 -> P13 -> T7
+		P14 [fillcolor="#cccccc" shape=point] //
+		I14 [shape=box style=invis label="4|2&1|683#0|160&#92;n7|6&1|1027#1|152&#92;n2|0&0|54#0|786&#92;n"]
+		P14 -> I14[style=invis]
+		T8 -> P14 -> T3
+		P15 [fillcolor="#cccccc" shape=point] //
+		I15 [shape=box style=invis label="7|3&1|1257#0|755&#92;n6|6&1|1270#0|380&#92;n1|2&0|1086#0|459&#92;n2|1&0|890#1|1029&#92;n0|0&0|865#1|578&#92;n7|0&0|1288#0|368&#92;n2|2&1|664#0|256&#92;n2|6&1|1333#0|130&#92;n4|5&1|527#0|1342&#92;n2|7&1|1051#1|753&#92;n1|2&1|1299#0|1085&#92;n3|6&0|1141#0|218&#92;n4|0&0|14#0|863&#92;n"]
+		P15 -> I15[style=invis]
+		T8 -> P15 -> T6
+		P16 [fillcolor="#cccccc" shape=point] //
+		I16 [shape=box style=invis label="5|4&1|103#0|1172&#92;n7|4&0|1252#0|1310&#92;n4|0&0|612#0|956&#92;n2|3&0|624#1|504&#92;n3|0&0|611#1|288&#92;n"]
+		P16 -> I16[style=invis]
+		A8 [fillcolor="#ff3366" shape=box margin=0.03 width=0 height=0 label="1"]
+		T8 -> P16 -> A8
+		P17 [fillcolor="#cccccc" shape=point] //
+		I17 [shape=box style=invis label="7|5&1|902#0|227&#92;n4|3&0|397#1|419&#92;n4|1&1|79#1|106&#92;n5|6&1|351#0|121&#92;n1|2&0|1086#0|459&#92;n2|6&1|1333#0|130&#92;n4|5&1|527#0|1342&#92;n2|1&1|1023#0|1225&#92;n2|7&1|1051#1|753&#92;n5|0&0|785#1|319&#92;n4|7&0|807#0|288&#92;n1|2&1|1299#0|1085&#92;n3|6&0|1141#0|218&#92;n4|0&0|14#0|863&#92;n"]
+		P17 -> I17[style=invis]
+		A9 [fillcolor="#ff3366" shape=box margin=0.03 width=0 height=0 label="10"]
+		T8 -> P17 -> A9
+		P18 [fillcolor="#cccccc" shape=point] //
+		I18 [shape=box style=invis label="6|4&0|231#0|437&#92;n4|0&0|964#1|911&#92;n"]
+		P18 -> I18[style=invis]
+		T9 -> P18 -> T8
+		P19 [fillcolor="#cccccc" shape=point] //
+		I19 [shape=box style=invis label="6|1&1|1315#1|1082&#92;n6|4&0|1009#1|198&#92;n6|6&1|872#0|1121&#92;n4|0&0|134#1|372&#92;n7|3&1|655#0|11&#92;n3|5&0|716#1|1277&#92;n7|6&0|971#1|1247&#92;n1|4&1|607#0|376&#92;n3|3&0|1006#0|213&#92;n0|6&0|468#0|451&#92;n7|3&0|422#0|581&#92;n7|1&0|875#0|751&#92;n6|5&1|229#0|581&#92;n1|0&0|1273#0|373&#92;n"]
+		P19 -> I19[style=invis]
+		T9 -> P19 -> T0
+		P20 [fillcolor="#cccccc" shape=point] //
+		I20 [shape=box style=invis label="7|6&0|1214#0|601&#92;n3|7&1|277#0|979&#92;n3|2&1|89#0|799&#92;n3|2&0|642#0|1180&#92;n2|1&1|497#1|561&#92;n0|4&0|246#0|311&#92;n3|6&0|938#0|36&#92;n2|0&0|553#1|1302&#92;n4|5&0|72#0|182&#92;n2|4&0|353#1|174&#92;n7|7&0|284#0|235&#92;n4|1&0|1265#0|1141&#92;n2|3&1|1093#0|991&#92;n3|7&0|667#1|1133&#92;n3|6&0|65#1|1090&#92;n4|0&0|783#0|614&#92;n"]
+		P20 -> I20[style=invis]
+		T9 -> P20 -> T5
+		P21 [fillcolor="#cccccc" shape=point] //
+		I21 [shape=box style=invis label="7|3&1|655#0|11&#92;n7|6&0|971#1|1247&#92;n7|3&0|422#0|676&#92;n7|1&0|875#0|751&#92;n6|5&1|229#0|581&#92;n1|0&0|1273#0|373&#92;n"]
+		P21 -> I21[style=invis]
+		T10 -> P21 -> T9
+		P22 [fillcolor="#cccccc" shape=point] //
+		I22 [shape=box style=invis label="6|4&1|1058#0|820&#92;n0|7&1|335#0|940&#92;n0|6&1|685#1|845&#92;n7|3&0|447#1|322&#92;n4|0&0|659#0|126&#92;n"]
+		P22 -> I22[style=invis]
+		A10 [fillcolor="#ff3366" shape=box margin=0.03 width=0 height=0 label="4"]
+		T11 -> P22 -> A10
+		P23 [fillcolor="#cccccc" shape=point] //
+		I23 [shape=box style=invis label="7|7&1|166#0|708&#92;n0|4&0|143#1|1192&#92;n1|0&0|76#1|1167&#92;n"]
+		P23 -> I23[style=invis]
+		T11 -> P23 -> T10
+		P24 [fillcolor="#cccccc" shape=point] //
+		I24 [shape=box style=invis label="2|0&0|1261#1|801&#92;n4|1&0|1062#0|640&#92;n0|6&0|22#0|1001&#92;n2|0&0|37#0|470&#92;n0|3&0|293#1|58&#92;n2|7&0|1014#0|443&#92;n3|0&0|1008#0|943&#92;n3|3&0|232#1|621&#92;n0|4&1|715#1|917&#92;n4|6&0|1028#0|259&#92;n3|0&1|840#0|710&#92;n"]
+		P24 -> I24[style=invis]
+		T12 -> P24 -> T11
+		P25 [fillcolor="#cccccc" shape=point] //
+		I25 [shape=box style=invis label="7|4&1|328#1|1184&#92;n1|2&1|620#0|716&#92;n2|0&0|1332#0|786&#92;n"]
+		P25 -> I25[style=invis]
+		A11 [fillcolor="#ff3366" shape=box margin=0.03 width=0 height=0 label="8"]
+		T12 -> P25 -> A11
+		P26 [fillcolor="#cccccc" shape=point] //
+		I26 [shape=box style=invis label="1|2&1|568#1|684&#92;n7|1&0|458#0|440&#92;n1|0&0|513#1|63&#92;n"]
+		P26 -> I26[style=invis]
+		A12 [fillcolor="#ff3366" shape=box margin=0.03 width=0 height=0 label="6"]
+		T12 -> P26 -> A12
+		P27 [fillcolor="#cccccc" shape=point] //
+		I27 [shape=box style=invis label="7|7&1|166#0|708&#92;n0|4&0|143#1|1192&#92;n1|0&0|76#1|1167&#92;n"]
+		P27 -> I27[style=invis]
+		T12 -> P27 -> T10
+		P28 [fillcolor="#cccccc" shape=point] //
+		I28 [shape=box style=invis label="7|2&1|470#0|30&#92;n2|6&1|183#0|970&#92;n1|1&1|495#1|251&#92;n7|2&0|662#1|552&#92;n2|0&0|570#0|353&#92;n"]
+		P28 -> I28[style=invis]
+		T13 -> P28 -> T12
+		{ rank= same T13 }
+}

@@ -1,0 +1,46 @@
+digraph{
+	graph[pad = "0.212, 0.055" bgcolor = lightgray]
+	node[shape=circle style = filled label = ""]
+		T0 [fillcolor="#66ddff"]
+		T1 [fillcolor="#66ddff"]
+		T2 [fillcolor="#1199bb"]
+		P0 [fillcolor="#cccccc" shape=point] //
+		I0 [shape=box style=invis label="4|1&0|755#0|3&#92;n5|6&0|1257#0|287&#92;n1|0&0|230#1|1062&#92;n"]
+		P0 -> I0[style=invis]
+		A0 [fillcolor="#ff3366" shape=box margin=0.03 width=0 height=0 label="0"]
+		T0 -> P0 -> A0
+		P1 [fillcolor="#cccccc" shape=point] //
+		I1 [shape=box style=invis label="5|2&1|989#0|944&#92;n7|1&0|834#1|211&#92;n3|0&0|1153#1|963&#92;n0|3&0|0#1|680&#92;n7|0&0|67#0|303&#92;n1|4&0|1136#1|543&#92;n1|0&0|180#1|249&#92;n"]
+		P1 -> I1[style=invis]
+		A1 [fillcolor="#ff3366" shape=box margin=0.03 width=0 height=0 label="17"]
+		T0 -> P1 -> A1
+		P2 [fillcolor="#cccccc" shape=point] //
+		I2 [shape=box style=invis label="2|4&1|336#1|293&#92;n3|0&0|1140#1|158&#92;n"]
+		P2 -> I2[style=invis]
+		A2 [fillcolor="#ff3366" shape=box margin=0.03 width=0 height=0 label="17"]
+		T0 -> P2 -> A2
+		P3 [fillcolor="#cccccc" shape=point] //
+		I3 [shape=box style=invis label="1|7&1|1248#1|488&#92;n1|0&0|1231#1|768&#92;n"]
+		P3 -> I3[style=invis]
+		A3 [fillcolor="#ff3366" shape=box margin=0.03 width=0 height=0 label="17"]
+		T0 -> P3 -> A3
+		P4 [fillcolor="#cccccc" shape=point] //
+		I4 [shape=box style=invis label="2|0&1|1194#1|156&#92;n"]
+		P4 -> I4[style=invis]
+		T1 -> P4 -> T0
+		P5 [fillcolor="#cccccc" shape=point] //
+		I5 [shape=box style=invis label="2|0&1|91#1|88&#92;n"]
+		P5 -> I5[style=invis]
+		T2 -> P5 -> T1
+		P6 [fillcolor="#cccccc" shape=point] //
+		I6 [shape=box style=invis label="4|4&1|878#1|529&#92;n2|4&0|1268#1|724&#92;n6|6&0|36#1|509&#92;n7|0&0|366#0|666&#92;n"]
+		P6 -> I6[style=invis]
+		A4 [fillcolor="#ff3366" shape=box margin=0.03 width=0 height=0 label="1"]
+		T2 -> P6 -> A4
+		P7 [fillcolor="#cccccc" shape=point] //
+		I7 [shape=box style=invis label="3|2&1|282#1|307&#92;n6|2&0|394#0|526&#92;n0|4&0|295#1|803&#92;n0|4&0|524#1|1144&#92;n5|2&0|242#1|833&#92;n0|1&0|90#1|661&#92;n4|5&0|212#0|1329&#92;n2|0&1|687#0|901&#92;n"]
+		P7 -> I7[style=invis]
+		A5 [fillcolor="#ff3366" shape=box margin=0.03 width=0 height=0 label="1"]
+		T2 -> P7 -> A5
+		{ rank= same T2 }
+}

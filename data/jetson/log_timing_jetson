@@ -1,0 +1,3715 @@
+# Build all targets  (04/11/22 01:20:07 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+[100%] Built target ALEGegelati
+Scanning dependencies of target ALEGegelatiCodegen
+[ 16%] Building CXX object CMakeFiles/ALEGegelatiCodegen.dir/src/codegen/codegen.cpp.o
+[ 33%] Linking CXX executable Release/ALEGegelatiCodegen
+[100%] Built target ALEGegelatiCodegen
+[100%] Built target ALEGegelatiInferenceTPG
+~/kdesnos/Git/ale-wrapper/scripts
+# Training on alien (04/11/22 01:20:24 PM)
+# Training on alien with seed 0.  (04/11/22 01:20:24 PM)
+# Codegen on alien with seed 0.  (04/11/22 01:20:24 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.alien.0.t48.dot.
+Play with TPG code
+Total score: 2480 in 3461 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on alien with seed 0.  (04/11/22 01:20:28 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on alien with seed 0.  (04/11/22 01:20:43 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on alien with seed 0.  (04/11/22 01:20:46 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on alien with seed 0.  (04/11/22 01:20:49 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on alien with seed 0.  (04/11/22 01:20:52 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on alien with seed 0.  (04/11/22 01:20:55 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on alien with seed 0.  (04/11/22 01:20:58 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on alien with seed 0.  (04/11/22 01:21:01 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on alien with seed 0.  (04/11/22 01:21:05 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on alien with seed 0.  (04/11/22 01:21:09 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on alien with seed 0.  (04/11/22 01:21:12 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on alien with seed 1.  (04/11/22 01:21:16 PM)
+# Codegen on alien with seed 1.  (04/11/22 01:21:16 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.alien.1.t48.dot.
+Play with TPG code
+Total score: 3330 in 5917 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on alien with seed 1.  (04/11/22 01:21:21 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on alien with seed 1.  (04/11/22 01:21:37 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on alien with seed 1.  (04/11/22 01:21:42 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on alien with seed 1.  (04/11/22 01:21:46 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on alien with seed 1.  (04/11/22 01:21:50 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on alien with seed 1.  (04/11/22 01:21:55 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on alien with seed 1.  (04/11/22 01:21:59 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on alien with seed 1.  (04/11/22 01:22:05 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on alien with seed 1.  (04/11/22 01:22:10 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on alien with seed 1.  (04/11/22 01:22:16 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on alien with seed 1.  (04/11/22 01:22:22 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on alien with seed 2.  (04/11/22 01:22:27 PM)
+# Codegen on alien with seed 2.  (04/11/22 01:22:27 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.alien.2.t48.dot.
+Play with TPG code
+Total score: 2530 in 4479 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on alien with seed 2.  (04/11/22 01:22:32 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on alien with seed 2.  (04/11/22 01:22:48 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on alien with seed 2.  (04/11/22 01:22:52 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on alien with seed 2.  (04/11/22 01:22:55 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on alien with seed 2.  (04/11/22 01:22:59 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on alien with seed 2.  (04/11/22 01:23:02 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on alien with seed 2.  (04/11/22 01:23:06 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on alien with seed 2.  (04/11/22 01:23:11 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on alien with seed 2.  (04/11/22 01:23:15 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on alien with seed 2.  (04/11/22 01:23:20 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on alien with seed 2.  (04/11/22 01:23:25 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on alien with seed 3.  (04/11/22 01:23:29 PM)
+# Codegen on alien with seed 3.  (04/11/22 01:23:29 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.alien.3.t48.dot.
+Play with TPG code
+Total score: 2630 in 4863 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on alien with seed 3.  (04/11/22 01:23:34 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on alien with seed 3.  (04/11/22 01:23:50 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on alien with seed 3.  (04/11/22 01:23:53 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on alien with seed 3.  (04/11/22 01:23:57 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on alien with seed 3.  (04/11/22 01:24:01 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on alien with seed 3.  (04/11/22 01:24:05 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on alien with seed 3.  (04/11/22 01:24:08 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on alien with seed 3.  (04/11/22 01:24:13 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on alien with seed 3.  (04/11/22 01:24:17 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on alien with seed 3.  (04/11/22 01:24:22 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on alien with seed 3.  (04/11/22 01:24:26 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on alien with seed 4.  (04/11/22 01:24:31 PM)
+# Codegen on alien with seed 4.  (04/11/22 01:24:31 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.alien.4.t48.dot.
+Play with TPG code
+Total score: 5190 in 4551 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on alien with seed 4.  (04/11/22 01:24:35 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on alien with seed 4.  (04/11/22 01:24:51 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on alien with seed 4.  (04/11/22 01:24:54 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on alien with seed 4.  (04/11/22 01:24:58 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on alien with seed 4.  (04/11/22 01:25:01 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on alien with seed 4.  (04/11/22 01:25:05 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on alien with seed 4.  (04/11/22 01:25:09 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on alien with seed 4.  (04/11/22 01:25:13 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on alien with seed 4.  (04/11/22 01:25:17 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on alien with seed 4.  (04/11/22 01:25:21 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on alien with seed 4.  (04/11/22 01:25:26 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on alien with seed 5.  (04/11/22 01:25:30 PM)
+# Codegen on alien with seed 5.  (04/11/22 01:25:30 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.alien.5.t48.dot.
+Play with TPG code
+Total score: 2070 in 3431 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on alien with seed 5.  (04/11/22 01:25:34 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on alien with seed 5.  (04/11/22 01:25:49 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on alien with seed 5.  (04/11/22 01:25:52 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on alien with seed 5.  (04/11/22 01:25:55 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on alien with seed 5.  (04/11/22 01:25:58 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on alien with seed 5.  (04/11/22 01:26:01 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on alien with seed 5.  (04/11/22 01:26:04 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on alien with seed 5.  (04/11/22 01:26:08 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on alien with seed 5.  (04/11/22 01:26:11 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on alien with seed 5.  (04/11/22 01:26:15 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on alien with seed 5.  (04/11/22 01:26:19 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on alien with seed 6.  (04/11/22 01:26:23 PM)
+# Codegen on alien with seed 6.  (04/11/22 01:26:23 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.alien.6.t48.dot.
+Play with TPG code
+Total score: 1080 in 3643 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on alien with seed 6.  (04/11/22 01:26:27 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on alien with seed 6.  (04/11/22 01:26:43 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on alien with seed 6.  (04/11/22 01:26:46 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on alien with seed 6.  (04/11/22 01:26:49 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on alien with seed 6.  (04/11/22 01:26:52 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on alien with seed 6.  (04/11/22 01:26:55 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on alien with seed 6.  (04/11/22 01:26:58 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on alien with seed 6.  (04/11/22 01:27:02 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on alien with seed 6.  (04/11/22 01:27:06 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on alien with seed 6.  (04/11/22 01:27:10 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on alien with seed 6.  (04/11/22 01:27:14 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on alien with seed 7.  (04/11/22 01:27:18 PM)
+# Codegen on alien with seed 7.  (04/11/22 01:27:18 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.alien.7.t48.dot.
+Play with TPG code
+Total score: 3050 in 5231 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on alien with seed 7.  (04/11/22 01:27:23 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on alien with seed 7.  (04/11/22 01:27:39 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on alien with seed 7.  (04/11/22 01:27:43 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on alien with seed 7.  (04/11/22 01:27:47 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on alien with seed 7.  (04/11/22 01:27:51 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on alien with seed 7.  (04/11/22 01:27:55 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on alien with seed 7.  (04/11/22 01:27:59 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on alien with seed 7.  (04/11/22 01:28:04 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on alien with seed 7.  (04/11/22 01:28:09 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on alien with seed 7.  (04/11/22 01:28:14 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on alien with seed 7.  (04/11/22 01:28:19 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on alien with seed 8.  (04/11/22 01:28:24 PM)
+# Codegen on alien with seed 8.  (04/11/22 01:28:24 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.alien.8.t48.dot.
+Play with TPG code
+Total score: 5720 in 6667 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on alien with seed 8.  (04/11/22 01:28:31 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on alien with seed 8.  (04/11/22 01:28:47 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on alien with seed 8.  (04/11/22 01:28:52 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on alien with seed 8.  (04/11/22 01:28:57 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on alien with seed 8.  (04/11/22 01:29:02 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on alien with seed 8.  (04/11/22 01:29:07 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on alien with seed 8.  (04/11/22 01:29:12 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on alien with seed 8.  (04/11/22 01:29:19 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on alien with seed 8.  (04/11/22 01:29:26 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on alien with seed 8.  (04/11/22 01:29:32 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on alien with seed 8.  (04/11/22 01:29:39 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on alien with seed 9.  (04/11/22 01:29:46 PM)
+# Codegen on alien with seed 9.  (04/11/22 01:29:46 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.alien.9.t48.dot.
+Play with TPG code
+Total score: 3080 in 5233 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on alien with seed 9.  (04/11/22 01:29:52 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on alien with seed 9.  (04/11/22 01:30:08 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on alien with seed 9.  (04/11/22 01:30:12 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on alien with seed 9.  (04/11/22 01:30:16 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on alien with seed 9.  (04/11/22 01:30:20 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on alien with seed 9.  (04/11/22 01:30:24 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on alien with seed 9.  (04/11/22 01:30:28 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on alien with seed 9.  (04/11/22 01:30:33 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on alien with seed 9.  (04/11/22 01:30:38 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on alien with seed 9.  (04/11/22 01:30:44 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on alien with seed 9.  (04/11/22 01:30:49 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on asteroids (04/11/22 01:30:55 PM)
+# Training on asteroids with seed 0.  (04/11/22 01:30:55 PM)
+# Codegen on asteroids with seed 0.  (04/11/22 01:30:55 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.asteroids.0.t48.dot.
+Play with TPG code
+Total score: 3390 in 16832 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on asteroids with seed 0.  (04/11/22 01:31:04 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on asteroids with seed 0.  (04/11/22 01:31:20 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on asteroids with seed 0.  (04/11/22 01:31:28 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on asteroids with seed 0.  (04/11/22 01:31:36 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on asteroids with seed 0.  (04/11/22 01:31:43 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on asteroids with seed 0.  (04/11/22 01:31:51 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on asteroids with seed 0.  (04/11/22 01:31:59 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on asteroids with seed 0.  (04/11/22 01:32:08 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on asteroids with seed 0.  (04/11/22 01:32:17 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on asteroids with seed 0.  (04/11/22 01:32:27 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on asteroids with seed 0.  (04/11/22 01:32:36 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on asteroids with seed 1.  (04/11/22 01:32:45 PM)
+# Codegen on asteroids with seed 1.  (04/11/22 01:32:45 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.asteroids.1.t48.dot.
+Play with TPG code
+Total score: 3200 in 11066 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on asteroids with seed 1.  (04/11/22 01:32:52 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on asteroids with seed 1.  (04/11/22 01:33:08 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on asteroids with seed 1.  (04/11/22 01:33:13 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on asteroids with seed 1.  (04/11/22 01:33:19 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on asteroids with seed 1.  (04/11/22 01:33:24 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on asteroids with seed 1.  (04/11/22 01:33:29 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on asteroids with seed 1.  (04/11/22 01:33:34 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on asteroids with seed 1.  (04/11/22 01:33:42 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on asteroids with seed 1.  (04/11/22 01:33:49 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on asteroids with seed 1.  (04/11/22 01:33:56 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on asteroids with seed 1.  (04/11/22 01:34:04 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on asteroids with seed 2.  (04/11/22 01:34:11 PM)
+# Codegen on asteroids with seed 2.  (04/11/22 01:34:11 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.asteroids.2.t48.dot.
+Play with TPG code
+Total score: 3100 in 12644 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on asteroids with seed 2.  (04/11/22 01:34:20 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on asteroids with seed 2.  (04/11/22 01:34:36 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on asteroids with seed 2.  (04/11/22 01:34:42 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on asteroids with seed 2.  (04/11/22 01:34:48 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on asteroids with seed 2.  (04/11/22 01:34:54 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on asteroids with seed 2.  (04/11/22 01:35:00 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on asteroids with seed 2.  (04/11/22 01:35:06 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on asteroids with seed 2.  (04/11/22 01:35:14 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on asteroids with seed 2.  (04/11/22 01:35:22 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on asteroids with seed 2.  (04/11/22 01:35:31 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on asteroids with seed 2.  (04/11/22 01:35:39 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on asteroids with seed 3.  (04/11/22 01:35:47 PM)
+# Codegen on asteroids with seed 3.  (04/11/22 01:35:47 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.asteroids.3.t48.dot.
+Play with TPG code
+Total score: 3100 in 15294 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on asteroids with seed 3.  (04/11/22 01:35:57 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on asteroids with seed 3.  (04/11/22 01:36:13 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on asteroids with seed 3.  (04/11/22 01:36:20 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on asteroids with seed 3.  (04/11/22 01:36:27 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on asteroids with seed 3.  (04/11/22 01:36:34 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on asteroids with seed 3.  (04/11/22 01:36:42 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on asteroids with seed 3.  (04/11/22 01:36:49 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on asteroids with seed 3.  (04/11/22 01:36:58 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on asteroids with seed 3.  (04/11/22 01:37:08 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on asteroids with seed 3.  (04/11/22 01:37:18 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on asteroids with seed 3.  (04/11/22 01:37:27 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on asteroids with seed 4.  (04/11/22 01:37:37 PM)
+# Codegen on asteroids with seed 4.  (04/11/22 01:37:37 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.asteroids.4.t48.dot.
+Play with TPG code
+Total score: 4820 in 13820 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on asteroids with seed 4.  (04/11/22 01:37:47 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on asteroids with seed 4.  (04/11/22 01:38:03 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on asteroids with seed 4.  (04/11/22 01:38:09 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on asteroids with seed 4.  (04/11/22 01:38:16 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on asteroids with seed 4.  (04/11/22 01:38:22 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on asteroids with seed 4.  (04/11/22 01:38:29 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on asteroids with seed 4.  (04/11/22 01:38:35 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on asteroids with seed 4.  (04/11/22 01:38:45 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on asteroids with seed 4.  (04/11/22 01:38:55 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on asteroids with seed 4.  (04/11/22 01:39:05 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on asteroids with seed 4.  (04/11/22 01:39:14 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on asteroids with seed 5.  (04/11/22 01:39:24 PM)
+# Codegen on asteroids with seed 5.  (04/11/22 01:39:24 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.asteroids.5.t48.dot.
+Play with TPG code
+Total score: 3220 in 10556 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on asteroids with seed 5.  (04/11/22 01:39:32 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on asteroids with seed 5.  (04/11/22 01:39:47 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on asteroids with seed 5.  (04/11/22 01:39:52 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on asteroids with seed 5.  (04/11/22 01:39:57 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on asteroids with seed 5.  (04/11/22 01:40:02 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on asteroids with seed 5.  (04/11/22 01:40:08 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on asteroids with seed 5.  (04/11/22 01:40:13 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on asteroids with seed 5.  (04/11/22 01:40:20 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on asteroids with seed 5.  (04/11/22 01:40:27 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on asteroids with seed 5.  (04/11/22 01:40:34 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on asteroids with seed 5.  (04/11/22 01:40:42 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on asteroids with seed 6.  (04/11/22 01:40:49 PM)
+# Codegen on asteroids with seed 6.  (04/11/22 01:40:49 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.asteroids.6.t48.dot.
+Play with TPG code
+Total score: 3220 in 9840 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on asteroids with seed 6.  (04/11/22 01:40:56 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on asteroids with seed 6.  (04/11/22 01:41:12 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on asteroids with seed 6.  (04/11/22 01:41:17 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on asteroids with seed 6.  (04/11/22 01:41:21 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on asteroids with seed 6.  (04/11/22 01:41:26 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on asteroids with seed 6.  (04/11/22 01:41:31 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on asteroids with seed 6.  (04/11/22 01:41:36 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on asteroids with seed 6.  (04/11/22 01:41:43 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on asteroids with seed 6.  (04/11/22 01:41:50 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on asteroids with seed 6.  (04/11/22 01:41:56 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on asteroids with seed 6.  (04/11/22 01:42:03 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on asteroids with seed 7.  (04/11/22 01:42:10 PM)
+# Codegen on asteroids with seed 7.  (04/11/22 01:42:10 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.asteroids.7.t48.dot.
+Play with TPG code
+Total score: 2900 in 6462 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on asteroids with seed 7.  (04/11/22 01:42:15 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on asteroids with seed 7.  (04/11/22 01:42:31 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on asteroids with seed 7.  (04/11/22 01:42:34 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on asteroids with seed 7.  (04/11/22 01:42:37 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on asteroids with seed 7.  (04/11/22 01:42:41 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on asteroids with seed 7.  (04/11/22 01:42:44 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on asteroids with seed 7.  (04/11/22 01:42:47 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on asteroids with seed 7.  (04/11/22 01:42:52 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on asteroids with seed 7.  (04/11/22 01:42:57 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on asteroids with seed 7.  (04/11/22 01:43:02 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on asteroids with seed 7.  (04/11/22 01:43:07 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on asteroids with seed 8.  (04/11/22 01:43:12 PM)
+# Codegen on asteroids with seed 8.  (04/11/22 01:43:12 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.asteroids.8.t48.dot.
+Play with TPG code
+Total score: 3220 in 11252 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on asteroids with seed 8.  (04/11/22 01:43:20 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on asteroids with seed 8.  (04/11/22 01:43:35 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on asteroids with seed 8.  (04/11/22 01:43:41 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on asteroids with seed 8.  (04/11/22 01:43:46 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on asteroids with seed 8.  (04/11/22 01:43:51 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on asteroids with seed 8.  (04/11/22 01:43:57 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on asteroids with seed 8.  (04/11/22 01:44:02 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on asteroids with seed 8.  (04/11/22 01:44:10 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on asteroids with seed 8.  (04/11/22 01:44:17 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on asteroids with seed 8.  (04/11/22 01:44:24 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on asteroids with seed 8.  (04/11/22 01:44:32 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on asteroids with seed 9.  (04/11/22 01:44:39 PM)
+# Codegen on asteroids with seed 9.  (04/11/22 01:44:39 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.asteroids.9.t48.dot.
+Play with TPG code
+Total score: 2650 in 10720 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on asteroids with seed 9.  (04/11/22 01:44:45 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on asteroids with seed 9.  (04/11/22 01:45:01 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on asteroids with seed 9.  (04/11/22 01:45:06 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on asteroids with seed 9.  (04/11/22 01:45:11 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on asteroids with seed 9.  (04/11/22 01:45:16 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on asteroids with seed 9.  (04/11/22 01:45:22 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on asteroids with seed 9.  (04/11/22 01:45:27 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on asteroids with seed 9.  (04/11/22 01:45:33 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on asteroids with seed 9.  (04/11/22 01:45:39 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on asteroids with seed 9.  (04/11/22 01:45:45 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on asteroids with seed 9.  (04/11/22 01:45:52 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on centipede (04/11/22 01:45:58 PM)
+# Training on centipede with seed 0.  (04/11/22 01:45:58 PM)
+# Codegen on centipede with seed 0.  (04/11/22 01:45:58 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.centipede.0.t48.dot.
+Play with TPG code
+Total score: 48934 in 18000 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on centipede with seed 0.  (04/11/22 01:46:09 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on centipede with seed 0.  (04/11/22 01:46:25 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on centipede with seed 0.  (04/11/22 01:46:34 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on centipede with seed 0.  (04/11/22 01:46:43 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on centipede with seed 0.  (04/11/22 01:46:52 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on centipede with seed 0.  (04/11/22 01:47:01 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on centipede with seed 0.  (04/11/22 01:47:10 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on centipede with seed 0.  (04/11/22 01:47:21 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on centipede with seed 0.  (04/11/22 01:47:32 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on centipede with seed 0.  (04/11/22 01:47:43 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on centipede with seed 0.  (04/11/22 01:47:55 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on centipede with seed 1.  (04/11/22 01:48:06 PM)
+# Codegen on centipede with seed 1.  (04/11/22 01:48:06 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.centipede.1.t48.dot.
+Play with TPG code
+Total score: 58917 in 18000 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on centipede with seed 1.  (04/11/22 01:48:18 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on centipede with seed 1.  (04/11/22 01:48:34 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on centipede with seed 1.  (04/11/22 01:48:43 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on centipede with seed 1.  (04/11/22 01:48:52 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on centipede with seed 1.  (04/11/22 01:49:02 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on centipede with seed 1.  (04/11/22 01:49:11 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on centipede with seed 1.  (04/11/22 01:49:20 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on centipede with seed 1.  (04/11/22 01:49:32 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on centipede with seed 1.  (04/11/22 01:49:44 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on centipede with seed 1.  (04/11/22 01:49:57 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on centipede with seed 1.  (04/11/22 01:50:09 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on centipede with seed 2.  (04/11/22 01:50:21 PM)
+# Codegen on centipede with seed 2.  (04/11/22 01:50:21 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.centipede.2.t48.dot.
+Play with TPG code
+Total score: 47719 in 18000 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on centipede with seed 2.  (04/11/22 01:50:34 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on centipede with seed 2.  (04/11/22 01:50:50 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on centipede with seed 2.  (04/11/22 01:50:59 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on centipede with seed 2.  (04/11/22 01:51:08 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on centipede with seed 2.  (04/11/22 01:51:18 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on centipede with seed 2.  (04/11/22 01:51:27 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on centipede with seed 2.  (04/11/22 01:51:36 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on centipede with seed 2.  (04/11/22 01:51:48 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on centipede with seed 2.  (04/11/22 01:52:01 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on centipede with seed 2.  (04/11/22 01:52:14 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on centipede with seed 2.  (04/11/22 01:52:27 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on centipede with seed 3.  (04/11/22 01:52:40 PM)
+# Codegen on centipede with seed 3.  (04/11/22 01:52:40 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.centipede.3.t48.dot.
+Play with TPG code
+Total score: 41922 in 18000 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on centipede with seed 3.  (04/11/22 01:52:51 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on centipede with seed 3.  (04/11/22 01:53:07 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on centipede with seed 3.  (04/11/22 01:53:16 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on centipede with seed 3.  (04/11/22 01:53:25 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on centipede with seed 3.  (04/11/22 01:53:35 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on centipede with seed 3.  (04/11/22 01:53:44 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on centipede with seed 3.  (04/11/22 01:53:53 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on centipede with seed 3.  (04/11/22 01:54:04 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on centipede with seed 3.  (04/11/22 01:54:16 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on centipede with seed 3.  (04/11/22 01:54:27 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on centipede with seed 3.  (04/11/22 01:54:38 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on centipede with seed 4.  (04/11/22 01:54:50 PM)
+# Codegen on centipede with seed 4.  (04/11/22 01:54:50 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.centipede.4.t48.dot.
+Play with TPG code
+Total score: 43828 in 18000 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on centipede with seed 4.  (04/11/22 01:55:01 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on centipede with seed 4.  (04/11/22 01:55:16 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on centipede with seed 4.  (04/11/22 01:55:25 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on centipede with seed 4.  (04/11/22 01:55:34 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on centipede with seed 4.  (04/11/22 01:55:43 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on centipede with seed 4.  (04/11/22 01:55:52 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on centipede with seed 4.  (04/11/22 01:56:01 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on centipede with seed 4.  (04/11/22 01:56:12 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on centipede with seed 4.  (04/11/22 01:56:22 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on centipede with seed 4.  (04/11/22 01:56:33 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on centipede with seed 4.  (04/11/22 01:56:44 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on centipede with seed 5.  (04/11/22 01:56:54 PM)
+# Codegen on centipede with seed 5.  (04/11/22 01:56:54 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.centipede.5.t48.dot.
+Play with TPG code
+Total score: 45216 in 18000 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on centipede with seed 5.  (04/11/22 01:57:05 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on centipede with seed 5.  (04/11/22 01:57:21 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on centipede with seed 5.  (04/11/22 01:57:30 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on centipede with seed 5.  (04/11/22 01:57:39 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on centipede with seed 5.  (04/11/22 01:57:48 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on centipede with seed 5.  (04/11/22 01:57:58 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on centipede with seed 5.  (04/11/22 01:58:07 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on centipede with seed 5.  (04/11/22 01:58:18 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on centipede with seed 5.  (04/11/22 01:58:29 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on centipede with seed 5.  (04/11/22 01:58:40 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on centipede with seed 5.  (04/11/22 01:58:51 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on centipede with seed 6.  (04/11/22 01:59:02 PM)
+# Codegen on centipede with seed 6.  (04/11/22 01:59:02 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.centipede.6.t48.dot.
+Play with TPG code
+Total score: 55612 in 18000 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on centipede with seed 6.  (04/11/22 01:59:14 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on centipede with seed 6.  (04/11/22 01:59:30 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on centipede with seed 6.  (04/11/22 01:59:39 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on centipede with seed 6.  (04/11/22 01:59:48 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on centipede with seed 6.  (04/11/22 01:59:57 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on centipede with seed 6.  (04/11/22 02:00:06 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on centipede with seed 6.  (04/11/22 02:00:15 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on centipede with seed 6.  (04/11/22 02:00:27 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on centipede with seed 6.  (04/11/22 02:00:38 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on centipede with seed 6.  (04/11/22 02:00:50 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on centipede with seed 6.  (04/11/22 02:01:01 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on centipede with seed 7.  (04/11/22 02:01:13 PM)
+# Codegen on centipede with seed 7.  (04/11/22 02:01:13 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.centipede.7.t48.dot.
+Play with TPG code
+Total score: 45793 in 18000 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on centipede with seed 7.  (04/11/22 02:01:23 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on centipede with seed 7.  (04/11/22 02:01:39 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on centipede with seed 7.  (04/11/22 02:01:48 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on centipede with seed 7.  (04/11/22 02:01:57 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on centipede with seed 7.  (04/11/22 02:02:06 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on centipede with seed 7.  (04/11/22 02:02:15 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on centipede with seed 7.  (04/11/22 02:02:24 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on centipede with seed 7.  (04/11/22 02:02:34 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on centipede with seed 7.  (04/11/22 02:02:44 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on centipede with seed 7.  (04/11/22 02:02:55 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on centipede with seed 7.  (04/11/22 02:03:05 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on centipede with seed 8.  (04/11/22 02:03:15 PM)
+# Codegen on centipede with seed 8.  (04/11/22 02:03:15 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.centipede.8.t48.dot.
+Play with TPG code
+Total score: 44499 in 18000 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on centipede with seed 8.  (04/11/22 02:03:28 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on centipede with seed 8.  (04/11/22 02:03:43 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on centipede with seed 8.  (04/11/22 02:03:53 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on centipede with seed 8.  (04/11/22 02:04:02 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on centipede with seed 8.  (04/11/22 02:04:11 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on centipede with seed 8.  (04/11/22 02:04:20 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on centipede with seed 8.  (04/11/22 02:04:29 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on centipede with seed 8.  (04/11/22 02:04:41 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on centipede with seed 8.  (04/11/22 02:04:53 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on centipede with seed 8.  (04/11/22 02:05:05 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on centipede with seed 8.  (04/11/22 02:05:17 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on centipede with seed 9.  (04/11/22 02:05:29 PM)
+# Codegen on centipede with seed 9.  (04/11/22 02:05:29 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.centipede.9.t48.dot.
+Play with TPG code
+Total score: 39732 in 17920 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on centipede with seed 9.  (04/11/22 02:05:42 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on centipede with seed 9.  (04/11/22 02:05:58 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on centipede with seed 9.  (04/11/22 02:06:07 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on centipede with seed 9.  (04/11/22 02:06:16 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on centipede with seed 9.  (04/11/22 02:06:25 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on centipede with seed 9.  (04/11/22 02:06:35 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on centipede with seed 9.  (04/11/22 02:06:44 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on centipede with seed 9.  (04/11/22 02:06:57 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on centipede with seed 9.  (04/11/22 02:07:10 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on centipede with seed 9.  (04/11/22 02:07:23 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on centipede with seed 9.  (04/11/22 02:07:37 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on fishing_derby (04/11/22 02:07:50 PM)
+# Training on fishing_derby with seed 0.  (04/11/22 02:07:50 PM)
+# Codegen on fishing_derby with seed 0.  (04/11/22 02:07:50 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.fishing_derby.0.t48.dot.
+Play with TPG code
+Total score: -13 in 9207 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on fishing_derby with seed 0.  (04/11/22 02:07:59 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on fishing_derby with seed 0.  (04/11/22 02:08:15 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on fishing_derby with seed 0.  (04/11/22 02:08:23 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on fishing_derby with seed 0.  (04/11/22 02:08:31 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on fishing_derby with seed 0.  (04/11/22 02:08:38 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on fishing_derby with seed 0.  (04/11/22 02:08:46 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on fishing_derby with seed 0.  (04/11/22 02:08:54 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on fishing_derby with seed 0.  (04/11/22 02:09:03 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on fishing_derby with seed 0.  (04/11/22 02:09:12 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on fishing_derby with seed 0.  (04/11/22 02:09:21 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on fishing_derby with seed 0.  (04/11/22 02:09:31 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on fishing_derby with seed 1.  (04/11/22 02:09:40 PM)
+# Codegen on fishing_derby with seed 1.  (04/11/22 02:09:40 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.fishing_derby.1.t48.dot.
+Play with TPG code
+Total score: -29 in 8267 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on fishing_derby with seed 1.  (04/11/22 02:09:47 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on fishing_derby with seed 1.  (04/11/22 02:10:03 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on fishing_derby with seed 1.  (04/11/22 02:10:10 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on fishing_derby with seed 1.  (04/11/22 02:10:17 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on fishing_derby with seed 1.  (04/11/22 02:10:24 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on fishing_derby with seed 1.  (04/11/22 02:10:30 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on fishing_derby with seed 1.  (04/11/22 02:10:37 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on fishing_derby with seed 1.  (04/11/22 02:10:45 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on fishing_derby with seed 1.  (04/11/22 02:10:52 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on fishing_derby with seed 1.  (04/11/22 02:11:00 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on fishing_derby with seed 1.  (04/11/22 02:11:07 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on fishing_derby with seed 2.  (04/11/22 02:11:15 PM)
+# Codegen on fishing_derby with seed 2.  (04/11/22 02:11:15 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.fishing_derby.2.t48.dot.
+Play with TPG code
+Total score: -35 in 7551 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on fishing_derby with seed 2.  (04/11/22 02:11:22 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on fishing_derby with seed 2.  (04/11/22 02:11:37 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on fishing_derby with seed 2.  (04/11/22 02:11:44 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on fishing_derby with seed 2.  (04/11/22 02:11:50 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on fishing_derby with seed 2.  (04/11/22 02:11:56 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on fishing_derby with seed 2.  (04/11/22 02:12:03 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on fishing_derby with seed 2.  (04/11/22 02:12:09 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on fishing_derby with seed 2.  (04/11/22 02:12:16 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on fishing_derby with seed 2.  (04/11/22 02:12:23 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on fishing_derby with seed 2.  (04/11/22 02:12:30 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on fishing_derby with seed 2.  (04/11/22 02:12:37 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on fishing_derby with seed 3.  (04/11/22 02:12:44 PM)
+# Codegen on fishing_derby with seed 3.  (04/11/22 02:12:44 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.fishing_derby.3.t48.dot.
+Play with TPG code
+Total score: -23 in 7955 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on fishing_derby with seed 3.  (04/11/22 02:12:51 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on fishing_derby with seed 3.  (04/11/22 02:13:06 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on fishing_derby with seed 3.  (04/11/22 02:13:13 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on fishing_derby with seed 3.  (04/11/22 02:13:19 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on fishing_derby with seed 3.  (04/11/22 02:13:26 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on fishing_derby with seed 3.  (04/11/22 02:13:32 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on fishing_derby with seed 3.  (04/11/22 02:13:39 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on fishing_derby with seed 3.  (04/11/22 02:13:46 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on fishing_derby with seed 3.  (04/11/22 02:13:53 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on fishing_derby with seed 3.  (04/11/22 02:14:01 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on fishing_derby with seed 3.  (04/11/22 02:14:08 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on fishing_derby with seed 4.  (04/11/22 02:14:16 PM)
+# Codegen on fishing_derby with seed 4.  (04/11/22 02:14:16 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.fishing_derby.4.t48.dot.
+Play with TPG code
+Total score: -11 in 8015 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on fishing_derby with seed 4.  (04/11/22 02:14:23 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on fishing_derby with seed 4.  (04/11/22 02:14:39 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on fishing_derby with seed 4.  (04/11/22 02:14:45 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on fishing_derby with seed 4.  (04/11/22 02:14:52 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on fishing_derby with seed 4.  (04/11/22 02:14:59 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on fishing_derby with seed 4.  (04/11/22 02:15:05 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on fishing_derby with seed 4.  (04/11/22 02:15:12 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on fishing_derby with seed 4.  (04/11/22 02:15:19 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on fishing_derby with seed 4.  (04/11/22 02:15:27 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on fishing_derby with seed 4.  (04/11/22 02:15:34 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on fishing_derby with seed 4.  (04/11/22 02:15:42 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on fishing_derby with seed 5.  (04/11/22 02:15:49 PM)
+# Codegen on fishing_derby with seed 5.  (04/11/22 02:15:49 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.fishing_derby.5.t48.dot.
+Play with TPG code
+Total score: -33 in 9119 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on fishing_derby with seed 5.  (04/11/22 02:15:58 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on fishing_derby with seed 5.  (04/11/22 02:16:14 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on fishing_derby with seed 5.  (04/11/22 02:16:21 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on fishing_derby with seed 5.  (04/11/22 02:16:29 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on fishing_derby with seed 5.  (04/11/22 02:16:36 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on fishing_derby with seed 5.  (04/11/22 02:16:44 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on fishing_derby with seed 5.  (04/11/22 02:16:52 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on fishing_derby with seed 5.  (04/11/22 02:17:01 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on fishing_derby with seed 5.  (04/11/22 02:17:09 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on fishing_derby with seed 5.  (04/11/22 02:17:18 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on fishing_derby with seed 5.  (04/11/22 02:17:27 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on fishing_derby with seed 6.  (04/11/22 02:17:36 PM)
+# Codegen on fishing_derby with seed 6.  (04/11/22 02:17:36 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.fishing_derby.6.t48.dot.
+Play with TPG code
+Total score: -7 in 9851 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on fishing_derby with seed 6.  (04/11/22 02:17:45 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on fishing_derby with seed 6.  (04/11/22 02:18:00 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on fishing_derby with seed 6.  (04/11/22 02:18:09 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on fishing_derby with seed 6.  (04/11/22 02:18:17 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on fishing_derby with seed 6.  (04/11/22 02:18:25 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on fishing_derby with seed 6.  (04/11/22 02:18:33 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on fishing_derby with seed 6.  (04/11/22 02:18:41 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on fishing_derby with seed 6.  (04/11/22 02:18:50 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on fishing_derby with seed 6.  (04/11/22 02:18:58 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on fishing_derby with seed 6.  (04/11/22 02:19:07 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on fishing_derby with seed 6.  (04/11/22 02:19:16 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on fishing_derby with seed 7.  (04/11/22 02:19:24 PM)
+# Codegen on fishing_derby with seed 7.  (04/11/22 02:19:24 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.fishing_derby.7.t48.dot.
+Play with TPG code
+Total score: -39 in 8911 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on fishing_derby with seed 7.  (04/11/22 02:19:33 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on fishing_derby with seed 7.  (04/11/22 02:19:49 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on fishing_derby with seed 7.  (04/11/22 02:19:56 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on fishing_derby with seed 7.  (04/11/22 02:20:04 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on fishing_derby with seed 7.  (04/11/22 02:20:11 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on fishing_derby with seed 7.  (04/11/22 02:20:18 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on fishing_derby with seed 7.  (04/11/22 02:20:26 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on fishing_derby with seed 7.  (04/11/22 02:20:34 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on fishing_derby with seed 7.  (04/11/22 02:20:43 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on fishing_derby with seed 7.  (04/11/22 02:20:51 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on fishing_derby with seed 7.  (04/11/22 02:21:00 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on fishing_derby with seed 8.  (04/11/22 02:21:08 PM)
+# Codegen on fishing_derby with seed 8.  (04/11/22 02:21:08 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.fishing_derby.8.t48.dot.
+Play with TPG code
+Total score: -33 in 9151 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on fishing_derby with seed 8.  (04/11/22 02:21:17 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on fishing_derby with seed 8.  (04/11/22 02:21:32 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on fishing_derby with seed 8.  (04/11/22 02:21:40 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on fishing_derby with seed 8.  (04/11/22 02:21:48 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on fishing_derby with seed 8.  (04/11/22 02:21:56 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on fishing_derby with seed 8.  (04/11/22 02:22:03 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on fishing_derby with seed 8.  (04/11/22 02:22:11 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on fishing_derby with seed 8.  (04/11/22 02:22:20 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on fishing_derby with seed 8.  (04/11/22 02:22:29 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on fishing_derby with seed 8.  (04/11/22 02:22:37 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on fishing_derby with seed 8.  (04/11/22 02:22:46 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on fishing_derby with seed 9.  (04/11/22 02:22:54 PM)
+# Codegen on fishing_derby with seed 9.  (04/11/22 02:22:54 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.fishing_derby.9.t48.dot.
+Play with TPG code
+Total score: -39 in 6743 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on fishing_derby with seed 9.  (04/11/22 02:23:01 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on fishing_derby with seed 9.  (04/11/22 02:23:16 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on fishing_derby with seed 9.  (04/11/22 02:23:22 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on fishing_derby with seed 9.  (04/11/22 02:23:28 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on fishing_derby with seed 9.  (04/11/22 02:23:34 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on fishing_derby with seed 9.  (04/11/22 02:23:39 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on fishing_derby with seed 9.  (04/11/22 02:23:45 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on fishing_derby with seed 9.  (04/11/22 02:23:51 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on fishing_derby with seed 9.  (04/11/22 02:23:57 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on fishing_derby with seed 9.  (04/11/22 02:24:04 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on fishing_derby with seed 9.  (04/11/22 02:24:10 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on frostbite (04/11/22 02:24:16 PM)
+# Training on frostbite with seed 0.  (04/11/22 02:24:16 PM)
+# Codegen on frostbite with seed 0.  (04/11/22 02:24:16 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.frostbite.0.t48.dot.
+Play with TPG code
+Total score: 4980 in 5881 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on frostbite with seed 0.  (04/11/22 02:24:21 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on frostbite with seed 0.  (04/11/22 02:24:36 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on frostbite with seed 0.  (04/11/22 02:24:40 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on frostbite with seed 0.  (04/11/22 02:24:44 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on frostbite with seed 0.  (04/11/22 02:24:48 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on frostbite with seed 0.  (04/11/22 02:24:52 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on frostbite with seed 0.  (04/11/22 02:24:56 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on frostbite with seed 0.  (04/11/22 02:25:00 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on frostbite with seed 0.  (04/11/22 02:25:05 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on frostbite with seed 0.  (04/11/22 02:25:10 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on frostbite with seed 0.  (04/11/22 02:25:14 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on frostbite with seed 1.  (04/11/22 02:25:19 PM)
+# Codegen on frostbite with seed 1.  (04/11/22 02:25:19 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.frostbite.1.t48.dot.
+Play with TPG code
+Total score: 6390 in 6843 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on frostbite with seed 1.  (04/11/22 02:25:25 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on frostbite with seed 1.  (04/11/22 02:25:40 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on frostbite with seed 1.  (04/11/22 02:25:44 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on frostbite with seed 1.  (04/11/22 02:25:49 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on frostbite with seed 1.  (04/11/22 02:25:53 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on frostbite with seed 1.  (04/11/22 02:25:58 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on frostbite with seed 1.  (04/11/22 02:26:02 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on frostbite with seed 1.  (04/11/22 02:26:07 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on frostbite with seed 1.  (04/11/22 02:26:12 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on frostbite with seed 1.  (04/11/22 02:26:18 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on frostbite with seed 1.  (04/11/22 02:26:23 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on frostbite with seed 2.  (04/11/22 02:26:28 PM)
+# Codegen on frostbite with seed 2.  (04/11/22 02:26:28 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.frostbite.2.t48.dot.
+Play with TPG code
+Total score: 3990 in 6351 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on frostbite with seed 2.  (04/11/22 02:26:33 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on frostbite with seed 2.  (04/11/22 02:26:48 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on frostbite with seed 2.  (04/11/22 02:26:52 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on frostbite with seed 2.  (04/11/22 02:26:56 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on frostbite with seed 2.  (04/11/22 02:27:00 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on frostbite with seed 2.  (04/11/22 02:27:04 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on frostbite with seed 2.  (04/11/22 02:27:08 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on frostbite with seed 2.  (04/11/22 02:27:13 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on frostbite with seed 2.  (04/11/22 02:27:17 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on frostbite with seed 2.  (04/11/22 02:27:22 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on frostbite with seed 2.  (04/11/22 02:27:26 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on frostbite with seed 3.  (04/11/22 02:27:30 PM)
+# Codegen on frostbite with seed 3.  (04/11/22 02:27:30 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.frostbite.3.t48.dot.
+Play with TPG code
+Total score: 4360 in 18000 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on frostbite with seed 3.  (04/11/22 02:27:44 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on frostbite with seed 3.  (04/11/22 02:27:59 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on frostbite with seed 3.  (04/11/22 02:28:10 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on frostbite with seed 3.  (04/11/22 02:28:21 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on frostbite with seed 3.  (04/11/22 02:28:31 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on frostbite with seed 3.  (04/11/22 02:28:42 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on frostbite with seed 3.  (04/11/22 02:28:53 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on frostbite with seed 3.  (04/11/22 02:29:06 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on frostbite with seed 3.  (04/11/22 02:29:19 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on frostbite with seed 3.  (04/11/22 02:29:31 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on frostbite with seed 3.  (04/11/22 02:29:44 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on frostbite with seed 4.  (04/11/22 02:29:57 PM)
+# Codegen on frostbite with seed 4.  (04/11/22 02:29:57 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.frostbite.4.t48.dot.
+Play with TPG code
+Total score: 8830 in 8053 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on frostbite with seed 4.  (04/11/22 02:30:04 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on frostbite with seed 4.  (04/11/22 02:30:20 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on frostbite with seed 4.  (04/11/22 02:30:25 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on frostbite with seed 4.  (04/11/22 02:30:30 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on frostbite with seed 4.  (04/11/22 02:30:35 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on frostbite with seed 4.  (04/11/22 02:30:40 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on frostbite with seed 4.  (04/11/22 02:30:46 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on frostbite with seed 4.  (04/11/22 02:30:52 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on frostbite with seed 4.  (04/11/22 02:30:59 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on frostbite with seed 4.  (04/11/22 02:31:06 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on frostbite with seed 4.  (04/11/22 02:31:13 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on frostbite with seed 5.  (04/11/22 02:31:19 PM)
+# Codegen on frostbite with seed 5.  (04/11/22 02:31:19 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.frostbite.5.t48.dot.
+Play with TPG code
+Total score: 5450 in 8829 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on frostbite with seed 5.  (04/11/22 02:31:26 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on frostbite with seed 5.  (04/11/22 02:31:42 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on frostbite with seed 5.  (04/11/22 02:31:47 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on frostbite with seed 5.  (04/11/22 02:31:53 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on frostbite with seed 5.  (04/11/22 02:31:58 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on frostbite with seed 5.  (04/11/22 02:32:03 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on frostbite with seed 5.  (04/11/22 02:32:09 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on frostbite with seed 5.  (04/11/22 02:32:15 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on frostbite with seed 5.  (04/11/22 02:32:21 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on frostbite with seed 5.  (04/11/22 02:32:27 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on frostbite with seed 5.  (04/11/22 02:32:33 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on frostbite with seed 6.  (04/11/22 02:32:40 PM)
+# Codegen on frostbite with seed 6.  (04/11/22 02:32:40 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.frostbite.6.t48.dot.
+Play with TPG code
+Total score: 3940 in 6879 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on frostbite with seed 6.  (04/11/22 02:32:45 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on frostbite with seed 6.  (04/11/22 02:33:01 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on frostbite with seed 6.  (04/11/22 02:33:05 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on frostbite with seed 6.  (04/11/22 02:33:10 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on frostbite with seed 6.  (04/11/22 02:33:14 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on frostbite with seed 6.  (04/11/22 02:33:19 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on frostbite with seed 6.  (04/11/22 02:33:23 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on frostbite with seed 6.  (04/11/22 02:33:29 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on frostbite with seed 6.  (04/11/22 02:33:34 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on frostbite with seed 6.  (04/11/22 02:33:40 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on frostbite with seed 6.  (04/11/22 02:33:45 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on frostbite with seed 7.  (04/11/22 02:33:51 PM)
+# Codegen on frostbite with seed 7.  (04/11/22 02:33:51 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.frostbite.7.t48.dot.
+Play with TPG code
+Total score: 5610 in 6775 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on frostbite with seed 7.  (04/11/22 02:33:56 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on frostbite with seed 7.  (04/11/22 02:34:12 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on frostbite with seed 7.  (04/11/22 02:34:16 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on frostbite with seed 7.  (04/11/22 02:34:21 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on frostbite with seed 7.  (04/11/22 02:34:25 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on frostbite with seed 7.  (04/11/22 02:34:29 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on frostbite with seed 7.  (04/11/22 02:34:34 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on frostbite with seed 7.  (04/11/22 02:34:39 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on frostbite with seed 7.  (04/11/22 02:34:45 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on frostbite with seed 7.  (04/11/22 02:34:50 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on frostbite with seed 7.  (04/11/22 02:34:55 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on frostbite with seed 8.  (04/11/22 02:35:01 PM)
+# Codegen on frostbite with seed 8.  (04/11/22 02:35:01 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.frostbite.8.t48.dot.
+Play with TPG code
+Total score: 5800 in 9116 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on frostbite with seed 8.  (04/11/22 02:35:08 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on frostbite with seed 8.  (04/11/22 02:35:24 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on frostbite with seed 8.  (04/11/22 02:35:30 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on frostbite with seed 8.  (04/11/22 02:35:35 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on frostbite with seed 8.  (04/11/22 02:35:41 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on frostbite with seed 8.  (04/11/22 02:35:47 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on frostbite with seed 8.  (04/11/22 02:35:52 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on frostbite with seed 8.  (04/11/22 02:35:59 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on frostbite with seed 8.  (04/11/22 02:36:06 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on frostbite with seed 8.  (04/11/22 02:36:13 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on frostbite with seed 8.  (04/11/22 02:36:20 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Training on frostbite with seed 9.  (04/11/22 02:36:27 PM)
+# Codegen on frostbite with seed 9.  (04/11/22 02:36:27 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+Loading dot file from out_best_cleaned.frostbite.9.t48.dot.
+Play with TPG code
+Total score: 3790 in 8619 actions.
+Analyze graph.
+Printing C code.
+# Build generated code on frostbite with seed 9.  (04/11/22 02:36:35 PM)
+~/kdesnos/Git/ale-wrapper/scripts ~/kdesnos/Git/ale-wrapper/scripts
+Scanning dependencies of target ALEGegelatiInferenceCodegen
+[ 12%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale.c.o
+[ 25%] Building C object CMakeFiles/ALEGegelatiInferenceCodegen.dir/codegen/ale_program.c.o
+[ 37%] Building CXX object CMakeFiles/ALEGegelatiInferenceCodegen.dir/src/codegen/inferenceCodegen.cpp.o
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/kdesnos/Git/ale-wrapper/src/codegen/inferenceCodegen.cpp:54:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(unsigned int repet = 0; repet<nbGames ; repet++) {
+                                 ~~~~~^~~~~~~~
+[ 50%] Linking CXX executable Release/ALEGegelatiInferenceCodegen
+[100%] Built target ALEGegelatiInferenceCodegen
+~/kdesnos/Git/ale-wrapper/scripts
+# Run 1/5 generated code on frostbite with seed 9.  (04/11/22 02:36:50 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 generated code on frostbite with seed 9.  (04/11/22 02:36:56 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 generated code on frostbite with seed 9.  (04/11/22 02:37:01 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 generated code on frostbite with seed 9.  (04/11/22 02:37:07 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 generated code on frostbite with seed 9.  (04/11/22 02:37:12 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 1/5 TPG on frostbite with seed 9.  (04/11/22 02:37:17 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 2/5 TPG on frostbite with seed 9.  (04/11/22 02:37:25 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 3/5 TPG on frostbite with seed 9.  (04/11/22 02:37:32 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 4/5 TPG on frostbite with seed 9.  (04/11/22 02:37:39 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Run 5/5 TPG on frostbite with seed 9.  (04/11/22 02:37:46 PM)
+A.L.E: Arcade Learning Environment (version 0.6.1+d3f2b25)
+[Powered by Stella]
+Use -help for help screen.
+Warning: couldn't load settings file: ./ale.cfg
+# Done  (04/11/22 02:37:53 PM)
