@@ -63,4 +63,35 @@ The repository contains:
 
 ## How to reproduce experiments?
 
-_TODO_
+0. Clone this repository and its submodules.
+   ```bash
+   git clone https://github.com/gegelati/SiPS22-Artifacts.git 
+   cd SiPS22-Artifacts
+   git submodule update --init   
+   ```
+   
+1. Build and install gegelati following instruction from `/SiPS22-Artifacts/gegelati/README.md` 
+
+2. Build and install the Arcade Learning Environment following instructions from 
+   `/SiPS22-Artifacts/ale-wrapper/README.md`.
+   
+3. Run the experiment script for training TPGs, generating code, measuring inference times, 
+   and profiling execution of generated code.
+   ```bash
+   cd ale-wrapper/scripts
+   ./codegen_experiments.sh
+   ```
+   Editing the script is needed to activate/deactivate the profiling of generated code.
+
+If you wish to skip the training process and measure inference times of pre-trained TPGs:
+
+0. Follow steps 0 to 2 from above.
+   
+1. Comment the lines responsible for training TPG within:
+   `/SiPS22-Artifacts/ale-wrapper/scripts/codegen_experiments.sh` 
+   
+2. Copy the `*.dot` files from `/SiPS22-Artifacts/data/trainingResults/` into the
+   `/SiPS22-Artifacts/ale-wrapper/scripts/` folder.
+
+3. Run the `codegen_experiments.sh` script within its folder.
+
